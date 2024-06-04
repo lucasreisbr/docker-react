@@ -149,13 +149,22 @@ return (
                 <div className="space-y-4 p-4">
                     <li>
                         <a href="/polos" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        Polos
+                            <Navbar.Link active={path === "/polos"} as={"div"}> 
+                                <Link to="/polos"> 
+                                    Polos
+                                </ Link>   
+                            </Navbar.Link>
                         </a>
                     </li>
                     <li>
-                        <a href="/equipe" className="hover:text-primary-600 dark:hover:text-primary-500">
+                        {/* <a href="/equipe" className="hover:text-primary-600 dark:hover:text-primary-500">
                         Equipe
-                        </a>
+                        </a> */}
+                        <Navbar.Link active={path === "/equipe"} as={"div"}> 
+                            <Link to="/equipe"> 
+                                Equipe
+                            </ Link>   
+                        </Navbar.Link>
                     </li>
                     <li>
                         <a href="/home" className="hover:text-primary-600 dark:hover:text-primary-500">
