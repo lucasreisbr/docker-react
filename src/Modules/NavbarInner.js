@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { MegaMenu, Navbar } from 'flowbite-react';
 import logo from '../logo-ibresp.svg';
 import './NavbarInner.css';
 
 export default function Component() {
 
-    // const path = useLocation().pathname;
+    const path = useLocation().pathname;
 
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
@@ -141,17 +142,18 @@ return (
             <ul className="grid grid-cols-1">
                 <div className="space-y-4 p-4">
                     <li>
-                     {/* <Link to="/polos">
-                        Polos
-                    </Link> */}
-                        <a href="/polos" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        Polos
-                        </a>
+                        <Navbar.Link active={path === "/polos"} as={"div"}> 
+                            <Link to="/polos"> 
+                                Polos
+                            </ Link>   
+                        </Navbar.Link>
                     </li>
                     <li>
-                        <a href="/equipe" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        Equipe
-                        </a>
+                        <Navbar.Link active={path === "/equipe"} as={"div"}> 
+                            <Link to="/equipe"> 
+                                Equipe
+                            </ Link>   
+                        </Navbar.Link>
                     </li>
                     <li>
                         <a href="/home" className="hover:text-primary-600 dark:hover:text-primary-500">

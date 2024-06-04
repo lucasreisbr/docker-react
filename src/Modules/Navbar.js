@@ -38,12 +38,6 @@ return (
         
         <Navbar.Collapse >
 
-            <Navbar.Link active={path === "/polos"} as={"div"}> 
-                <Link to="/polos"> 
-                    Polos
-                </ Link>   
-            </Navbar.Link>
-
             <Navbar.Link href="https://ibresp.com.br/loja/Inicio" target="_blank"> Loja</Navbar.Link>
 
             <MegaMenu.Dropdown className=" bg-blue-950 " toggle={<>Cursos</>}>
@@ -148,18 +142,13 @@ return (
             <ul className="grid grid-cols-1">
                 <div className="space-y-4 p-4">
                     <li>
-                        <a href="/polos" className="hover:text-primary-600 dark:hover:text-primary-500">
-                            <Navbar.Link active={path === "/polos"} as={"div"}> 
-                                <Link to="/polos"> 
-                                    Polos
-                                </ Link>   
-                            </Navbar.Link>
-                        </a>
+                        <Navbar.Link active={path === "/polos"} as={"div"}> 
+                            <Link to="/polos"> 
+                                Polos
+                            </ Link>   
+                        </Navbar.Link>
                     </li>
                     <li>
-                        {/* <a href="/equipe" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        Equipe
-                        </a> */}
                         <Navbar.Link active={path === "/equipe"} as={"div"}> 
                             <Link to="/equipe"> 
                                 Equipe
