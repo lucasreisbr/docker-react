@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { MegaMenu, Navbar } from 'flowbite-react';
 import logo from '../logo-ibresp.svg';
 import './Navbar.css';
 
 export default function Component() {
 
-    // const path = useLocation().pathname;
+    const path = useLocation().pathname;
 
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
@@ -36,6 +37,12 @@ return (
     
         
         <Navbar.Collapse >
+
+            <Navbar.Link active={path === "/polos"} as={"div"}> 
+                <Link to="/polos"> 
+                    Polos
+                </ Link>   
+            </Navbar.Link>
 
             <Navbar.Link href="https://ibresp.com.br/loja/Inicio" target="_blank"> Loja</Navbar.Link>
 
