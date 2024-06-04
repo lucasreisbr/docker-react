@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from '../src/Pages/Home';
+import Polos from '../src/Pages/Polos';
+import Equipe from '../src/Pages/Equipe';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          HELLO IBRESP NEW SITE
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Go ahead
-        </a>
-      </header>
-    </div>
-  );
+return (
+<div>
+    <BrowserRouter> 
+        <Routes>
+            <Route index element={<Home />} />
+            <Route path="polos" element={<Polos />} />
+            <Route path="equipe" element={<Equipe />} />
+        </Routes>
+    </BrowserRouter>
+</div>
+);
 }
 
 export default App;
