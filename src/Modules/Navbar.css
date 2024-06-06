@@ -1,13 +1,14 @@
 .navbarcolor {
 
-    background-color: transparent;
+    background-color: rgb(23 37 84);
     width: 100%;
+    z-index: 99;
 
 }
 
 .navbarcolor.active {
 
-    background-color: rgba(23, 37, 84, 0.7) ; 
+    background-color: rgba(3, 105, 161, 0.85); 
     top: 0;
     position: sticky;
     width: 100%;
@@ -30,8 +31,15 @@ nav li a:hover {
     }
 }
 
+.btn-active{
+    color: white; 
+}
+
+.btn-active-on{
+    color: rgb(34 211 238); 
+}
+
 nav button {
-    color: white !important; 
     font-size: 1.1rem;
     @media (max-width:768px) {
         padding: 0.5rem 1rem 0.5rem 0.75rem;
@@ -39,8 +47,7 @@ nav button {
 }
 
 nav button:hover {
-    color: rgb(34 211 238) !important; 
-    font-size: 1.1rem;
+    color: rgb(34 211 238); 
 }
 
 .border-gray-100 {
@@ -53,6 +60,7 @@ nav button:hover {
     background-color: transparent;
 }
 
-#ra {
-    transform: translate(1060px, 72px) !important;
-}
+.text-gray-500 {
+    --tw-text-opacity: 1;
+    color: white;
+  }

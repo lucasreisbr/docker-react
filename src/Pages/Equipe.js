@@ -1,11 +1,8 @@
 import React from "react";
-import Navbarinner from "../Modules/NavbarInner";
 
 function Equipe() {
     return(
         <div>
-
-            <Navbarinner />
 
             <div className=" flex flex-row ">
                 <h1 className=" text-sky-500 text-3xl " >

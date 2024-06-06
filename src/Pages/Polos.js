@@ -1,11 +1,8 @@
 import React from "react";
-import Navbarinner from "../Modules/NavbarInner";
 
 function Polos() {
     return(
         <div>
-
-            <Navbarinner />
 
             <div className=" flex flex-row ">
                 <h1 className=" text-cyan-800 text-3xl " >
@@ -14,7 +11,6 @@ function Polos() {
             </div> 
 
             <div className="bg-white">
- 
 
   <div className="relative isolate px-6 pt-14 lg:px-8">
     
