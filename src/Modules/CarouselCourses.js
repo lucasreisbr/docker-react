@@ -7,11 +7,13 @@ import Avaliacao from '../images/ibresp-curso-avaliacao-de-imoveis.webp';
 import Documentacao from '../images/ibresp-curso-documentacao-imobiliaria.webp';
 import Financiamento from '../images/ibresp-curso-financiamento-imobiliario.webp';
 
+
 export default function CarouselCourses() {
 
 return(
 
 <div>
+
 
 <h1 className='text-blue-950 mb-8 text-4xl font-bold px-3 md:px-0 '>
 Cursos IBRESP

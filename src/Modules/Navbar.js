@@ -2,9 +2,21 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {MegaMenu, Navbar } from 'flowbite-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaste, faUserTie, faHome, faCoins, faChartLine, faHouseUser, faChartPie, faImages } from '@fortawesome/free-solid-svg-icons'
+import { faChartLine, faHouseUser } from '@fortawesome/free-solid-svg-icons'
+import { MdOutlineAddAPhoto, MdOutlineCrisisAlert } from "react-icons/md";
+import { FaRegAddressCard } from "react-icons/fa6";
+import { BsHouseCheck, BsBuildings } from "react-icons/bs";
+import { GrDocumentUser } from "react-icons/gr";
+import { GiTakeMyMoney, GiMagnifyingGlass } from "react-icons/gi";
+import { IoRocketOutline } from "react-icons/io5";
+import { GoLaw } from "react-icons/go";
+import { TbDoorEnter } from "react-icons/tb";
+import { LiaUserShieldSolid } from "react-icons/lia";
+import { RiNftLine } from "react-icons/ri";
+import { LuMonitorPlay } from "react-icons/lu";
 import logo from '../logo-ibresp.svg';
 import './Navbar.css';
+
 
 export default function Component() {
 
@@ -87,22 +99,22 @@ return (
                 <div className="space-y-2 md:space-y-6 p-4">
                     <li>
                         <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" className="hover:text-primary-600 dark:hover:text-primary-500 active">
-                        <FontAwesomeIcon icon={faUserTie} size="lg" /> Curso de TTI
+                         <i className=" float-start me-2 text-2xl "> <FaRegAddressCard /> </i>Curso de TTI
                         </a>
                     </li>
                     <li>
                         <a href="https://www.ibresp.com.br/curso-de-avaliacao-de-imoveis-em-sao-paulo/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faHome} size="lg" /> Avaliação de Imóveis
+                        <i className=" float-start me-1 text-2xl "> <BsHouseCheck /> </i> Avaliação de Imóveis
                         </a>
                     </li>
                     <li>
                         <a href="https://www.ibresp.com.br/curso-documentacao-imobiliaria/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Documentação Imobiliária
+                        <i className=" float-start me-1 text-2xl "><GrDocumentUser /> </i> Documentação Imobiliária
                         </a>
                     </li>
                     <li>
                         <a href="https://www.ibresp.com.br/curso-financiamento-e-credito-imobiliario/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faCoins} size="lg"  /> Financiamento e Crédito Imobiliário
+                        <i className=" float-start me-1 text-2xl "><GiTakeMyMoney /> </i> Financiamento e Crédito Imobiliário
                         </a>
                     </li>
                 </div>
@@ -115,17 +127,18 @@ return (
                     </li>
                     <li>
                         <a href="https://www.ibresp.com.br/curso-de-fotografia-imobiliaria/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faImages} size="lg"  /> Fotografia Imobiliária
+                        <i className=" float-start me-1 text-2xl "> <MdOutlineAddAPhoto /> </i> Fotografia Imobiliária
                         </a>
                     </li>
                     <li>
                         <a href="https://www.ibresp.com.br/curso-marketing-imobiliario/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Marketing Imobiliário
+                        <i className=" float-start me-1 text-2xl "> <IoRocketOutline /> </i> Marketing Imobiliário
+                        
                         </a>
                     </li>
                     <li>
                         <a href="https://www.ibresp.com.br/curso-perito-judicial/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Perito Judicial
+                        <i className=" float-start me-1 text-2xl "> <GoLaw /> </i> Perito Judicial
                         </a>
                     </li>
                 </div>
@@ -133,7 +146,8 @@ return (
                 <div className="space-y-2 md:space-y-6 p-4">
                     <li>
                         <a href="https://www.ibresp.com.br/curso-tecnicas-de-negociacao-e-vendas/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faChartPie} size="lg"  /> Técnicas de Negociação e Vendas
+                        <i className=" float-start me-1 text-2xl "> <MdOutlineCrisisAlert /> </i> Técnicas de Negociação e Vendas
+                       
                         </a>
                     </li>
                     <li>
@@ -143,12 +157,12 @@ return (
                     </li>
                     <li>
                         <a href="https://ibresp.com.br/curso-gestao-de-locacao-de-imoveis/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Gestão de Locação de Imóveis
+                        <i className=" float-start me-1 text-2xl "> <TbDoorEnter /> </i>  Gestão de Locação de Imóveis
                         </a>
                     </li>
                     <li>
                         <a href="https://ibresp.com.br/curso-sindico-profissional/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Síndico Profissional
+                        <i className=" float-start me-1 text-2xl "> <LiaUserShieldSolid /> </i> Síndico Profissional
                         </a>
                     </li>
                 </div>
@@ -156,22 +170,22 @@ return (
                 <div className="space-y-2 md:space-y-6 p-4">
                     <li>
                         <a href="https://ibresp.com.br/curso-administracao-de-condominio/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Administração de Condomínios
+                        <i className=" float-start me-1 text-2xl "> <BsBuildings /> </i>  Administração de Condomínios 
                         </a>
                     </li>
                     <li>
                         <a href="https://ibresp.com.br/curso-mercado-imobiliario-digital/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Tokenização Imobiliária
+                        <i className=" float-start me-1 text-2xl "> <RiNftLine /> </i> Tokenização Imobiliária
                         </a>
                     </li>
                     <li>
                         <a href="https://www.ibresp.com.br/cursos-gratuitos" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Cursos Gratuitos
+                        <i className=" float-start me-1 text-2xl "> <LuMonitorPlay /> </i>  Cursos Gratuitos
                         </a>
                     </li>
                     <li>
                         <a href="https://www.ibresp.com.br/especialista/home/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        <FontAwesomeIcon icon={faPaste} size="lg"  /> Programa Especialista
+                        <i className=" float-start me-1 text-2xl "> <GiMagnifyingGlass /> </i> Programa Especialista
                         </a>
                     </li>
 
