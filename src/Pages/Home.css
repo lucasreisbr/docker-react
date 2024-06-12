@@ -1,0 +1,13 @@
+.desktop{
+    display: inherit;
+    @media (max-width:600px) {
+        display: none;
+    }
+}
+
+.mobile{
+    display: none;
+    @media (max-width:600px) {
+        display: inherit;
+    }
+}

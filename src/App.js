@@ -1,4 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "@fontsource/ubuntu"; 
+import "@fontsource/ubuntu/300.css";
+import "@fontsource/ubuntu/700.css";  
 import Navbar from './Modules/Navbar';
 import Home from '../src/Pages/Home';
 import Polos from '../src/Pages/Polos';

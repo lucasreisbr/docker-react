@@ -83,10 +83,8 @@ return (
                 <img alt="" src={logo} className="lg:h-14 md:h-7 h-8" />
             </Navbar.Brand>
         
-
             <Navbar.Toggle />
     
-        
         <Navbar.Collapse >
 
             <Navbar.Link href="https://ibresp.com.br/loja/Inicio" target="_blank"> Loja</Navbar.Link>
@@ -99,7 +97,7 @@ return (
                 <div className="space-y-2 md:space-y-6 p-4">
                     <li>
                         <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" className="hover:text-primary-600 dark:hover:text-primary-500 active">
-                         <i className=" float-start me-2 text-2xl "> <FaRegAddressCard /> </i>Curso de TTI
+                         <i className=" float-start me-1 text-2xl "> <FaRegAddressCard /> </i>Curso de TTI
                         </a>
                     </li>
                     <li>
