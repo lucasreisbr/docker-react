@@ -26,16 +26,17 @@ return(
 <div>
 
 
-<h1 className='text-blue-950 mb-8 text-4xl font-bold px-3 lg:px-0 '>
+<h1 className='text-blue-950 mb-8 text-4xl font-bold px-3 xl:px-0 '>
 Cursos IBRESP
 </h1>
 
-<OwlCarousel className='owl-theme' autoplay loop margin={30}  stagePadding={50} responsive= {
+<div className="container mx-auto px-3 xl:px-0">
+<OwlCarousel className='courses owl-theme' autoplay loop margin={30}  stagePadding={50} responsive= {
     {
         '1':{
             items: 1
         },
-        '840': {
+        '810': {
             items: 2
         },
         '1025': {
@@ -228,6 +229,8 @@ Cursos IBRESP
     </div>
     
 </OwlCarousel>
+
+</div>
 
 </div>
     

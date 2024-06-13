@@ -1,7 +1,13 @@
-.owl-dot span {
-    background: rgb(23 37 84) !important;
-}
+.courses {
+    .owl-dot span {
+        background: rgb(23 37 84) !important;
+    }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: rgb(34 211 238) !important;
-  }
+    .owl-dot:hover span {
+        background: rgb(34 211 238) !important;
+    }
+
+   .active span {
+        background: rgb(34 211 238) !important;
+    }
+}

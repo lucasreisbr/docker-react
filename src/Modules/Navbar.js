@@ -73,9 +73,9 @@ return (
 
 <div className= {colorChange ? "navbarcolor active": "navbarcolor"} >     
 
-<div className=' lg:container xl:container mx-auto z-50 '>
+<div className='container mx-auto z-50'>
 
-    <MegaMenu className=" bg-transparent " >
+    <MegaMenu className="bg-transparent">
         
         <div className="flex flex-wrap w-full items-center justify-between py-4 md:space-x-8">
             
@@ -88,16 +88,16 @@ return (
         <Navbar.Collapse >
 
             <Navbar.Link href="https://ibresp.com.br/loja/Inicio" target="_blank"> Loja</Navbar.Link>
-           
-           <div className={style} onClick={changeStyle}>
+        
+            <div className={style} onClick={changeStyle}>
             
             <MegaMenu.Dropdown className=" btn-color bg-blue-950" toggle={<>Cursos</>}>
-           
+        
             <ul className="grid grid-cols-1 md:grid-cols-2">
                 <div className="space-y-2 md:space-y-6 p-4">
                     <li>
                         <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" className="hover:text-primary-600 dark:hover:text-primary-500 active">
-                         <i className=" float-start me-1 text-2xl "> <FaRegAddressCard /> </i>Curso de TTI
+                            <i className=" float-start me-1 text-2xl "> <FaRegAddressCard /> </i>Curso de TTI
                         </a>
                     </li>
                     <li>
@@ -145,7 +145,7 @@ return (
                     <li>
                         <a href="https://www.ibresp.com.br/curso-tecnicas-de-negociacao-e-vendas/" className="hover:text-primary-600 dark:hover:text-primary-500">
                         <i className=" float-start me-1 text-2xl "> <MdOutlineCrisisAlert /> </i> Técnicas de Negociação e Vendas
-                       
+                    
                         </a>
                     </li>
                     <li>
@@ -211,7 +211,7 @@ return (
                         </Navbar.Link>
                     </li>
                     <li>
-                        <a href="/home" className="hover:text-primary-600 dark:hover:text-primary-500">
+                        <a href="/" className="hover:text-primary-600 dark:hover:text-primary-500">
                         Área do aluno(as)
                         </a>
                     </li>

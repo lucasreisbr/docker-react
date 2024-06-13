@@ -1,0 +1,13 @@
+.ebooks{
+    .owl-dot span {
+        background: rgb(85 33 181) !important;
+    }
+
+    .owl-dot:hover span {
+        background: rgb(168 149 244) !important;
+    }
+
+   .active span {
+    background: rgb(168 149 244) !important;
+    }
+}
