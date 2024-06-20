@@ -1,4 +1,6 @@
-import Background from '../images/hero-ibresp.avif';
+import Background from '../images/hero-ibresp.webp';
+import Vantagens from '../images/bg-vantagens-corretor.webp';
+import Destaque from '../images/destaque.webp';
 import Banner from '../images/banner.avif';
 import BannerMob from '../images/banner-mob.webp';
 import CarouselCourses from '../Modules/CarouselCourses';
@@ -13,7 +15,7 @@ function Home() {
 return (
 <div>
 
-    <section style={{ background: `url(${Background})`,}} className="flex flex-row bg-cover bg-center bg-no-repeat min-h-screen justify-center">
+    <section style={{ background: `url(${Background})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-center">
         <div className="w-full">
             <div className='container mx-auto px-3 xl:px-0'>
                 <div className=' mt-44 ' >
@@ -116,10 +118,96 @@ return (
 
     </section>
 
-    <section className="flex flex-row justify-center mb-40">
+    <section className="flex flex-row justify-center mb-20">
         <div className="container mt-8">
             <CarouselBook /> 
         </div>
+    </section>
+
+    <section style={{ background: `url(${Vantagens})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-cente">
+
+        <div className="w-full">
+            <div className='container mx-auto px-3 xl:px-0'>
+
+                <div className=' mt-12 text-center mb-7 md:mb-28 ' >
+                    <h2 className="text-white text-4xl">
+                            VANTAGENS DE SER UM CORRETOR DE IMÓVEIS
+                    </h2>
+                </div>
+
+                <div className='grid grid-cols-1 md:grid-cols-2 justify-items-stretch gap-5 md:gap-36 mb-5 md:mb-20'>
+
+                    <div>
+                        <h2 className='my-2 text-3xl font-bold text-orange-400'>Demanda no mercado</h2>
+                        <p className='text-white leading-loose'>
+                        Segundo o COFECI, para atender a demanda do mercado, o número de corretores deveria ser pelo menos o dobro.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h2 className='my-2 text-3xl font-bold text-orange-400'>Alta remuneração</h2>
+                        <p className='text-white leading-loose'>
+                        A comissão do corretor pode chegar a 6% do valor do imóvel.Exemplificando, se vender um imóvel de 360 mil reais, sua comissão será de R$ 21.600,00 com apenas uma venda.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div className='grid grid-cols-1 md:grid-cols-2 justify-items-stretch gap-5 md:gap-36'>
+
+                    <div>
+                        <h2 className='my-2 text-3xl font-bold text-orange-400'>Flexibilidade de horário</h2>
+                        <p className='text-white leading-loose'>
+                        O corretor de imóveis tem uma agenda flexível com horários alternativos e com isso ganha tempo para dar atenção a outras atividades econômicas.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2 className='my-2 text-3xl font-bold text-orange-400'>Carreira sólida</h2>
+                        <p className='text-white leading-loose'>
+                        O mercado imobiliário é cheio de oportunidades de crescimento. Se o profissional se dedicar ele consegue construir uma carreira de sucesso no segmento imobiliário.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div className="text-center my-20">
+                    <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
+                        <button className=" bg-orange-400 text-white rounded-md hover:bg-orange-600 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-lg font-bold"> Saiba mais</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section style={{ background: `url(${Destaque})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-center mb-40">
+        
+        <div className="w-full">
+
+            <div className='container mx-auto px-3 xl:px-0'>
+
+                <div className='mt-44 mb-20 w-full md:w-1/3'>
+                    <p className=' text-cyan-950 text-xl leading-loose '>
+                    Ser aluno(a) IBRESP é ter tutoria especializada, cursos gratuitos, informação de qualidade, atendimento exclusivo, descontos e vantagens.
+                    </p>
+                </div>
+
+                <div className='w-full md:w-1/3 mb-24'>
+                    <p className=' text-cyan-950 text-2xl leading-loose '>
+                    Tudo para uma formação com destaque no mercado imobiliário. 
+                    </p>
+                </div>
+
+                <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
+                    <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-cyan-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 md:mb-2 text-lg"> Saiba mais</button>
+                </a>
+
+            </div>
+
+        </div>
+
     </section>
 
 
