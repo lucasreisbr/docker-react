@@ -8,7 +8,9 @@ import Polos from '../src/Pages/Polos';
 import Equipe from '../src/Pages/Equipe';
 
 function App() {
+    
 return (
+    
 <div>
     <BrowserRouter> 
     <Navbar/>

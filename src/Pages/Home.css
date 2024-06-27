@@ -11,3 +11,25 @@
         display: inherit;
     }
 }
+
+#form-newsletter-nova-home-31b938c6b42145723f7a:first-child {
+    display: none;
+}
+
+#rd-section-joq3m2m5c {
+ background-color: transparent !important;
+}
+
+#rd-form-joq3m2m5i .bricks-form__label{
+    color: transparent !important;
+}
+
+#rd-form-joq3m2m5i .bricks-form__input::placeholder{
+    color: rgb(76 29 149) !important;
+    
+}
+
+#rd-form-joq3m2m5i .bricks-form__input{
+    border-radius: 8px !important;
+    border-color: transparent !important;
+}

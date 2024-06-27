@@ -9,9 +9,12 @@ import Vendas from '../images/ibresp-programa-especialista-vendas.webp';
 import Locacao from '../images/ibresp-programa-especialista-locacao.webp';
 import Captacao from '../images/ibresp-programa-especialista-captacao.webp';
 import Avaliacao from '../images/ibresp-programa-especialista-avaliacao.webp';
+import Form from '../Modules/Form';
 import './Home.css';
 
+
 function Home() {
+
 return (
 <div>
 
@@ -182,7 +185,7 @@ return (
 
     </section>
 
-    <section style={{ background: `url(${Destaque})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-center mb-40">
+    <section style={{ background: `url(${Destaque})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-center">
         
         <div className="w-full">
 
@@ -203,6 +206,27 @@ return (
                 <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
                     <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-cyan-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 md:mb-2 text-lg"> Saiba mais</button>
                 </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section className="flex flex-row justify-center bg-cyan-300 mb-40">
+        
+        <div className="w-full">
+
+            <div className='container mx-auto px-3 xl:px-0'>
+
+                <div className=' mt-14 w-full'>
+                    <p className=' text-violet-900 text-3xl text-center font-semibold mb-7'>
+                    Assine nossa newsletter
+                    </p>
+
+                    <Form/>
+
+                </div>
 
             </div>
 
