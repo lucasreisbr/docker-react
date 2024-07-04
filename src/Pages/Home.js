@@ -10,6 +10,7 @@ import Locacao from '../images/ibresp-programa-especialista-locacao.webp';
 import Captacao from '../images/ibresp-programa-especialista-captacao.webp';
 import Avaliacao from '../images/ibresp-programa-especialista-avaliacao.webp';
 import Form from '../Modules/Form';
+import Footer from '../Modules/Footer';
 import './Home.css';
 
 
@@ -213,7 +214,7 @@ return (
 
     </section>
 
-    <section className="flex flex-row justify-center bg-cyan-300 mb-40">
+    <section className="flex flex-row justify-center bg-cyan-300">
         
         <div className="w-full">
 
@@ -233,6 +234,8 @@ return (
         </div>
 
     </section>
+
+    <Footer/>
 
 
 </div>
