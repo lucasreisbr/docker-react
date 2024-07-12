@@ -216,7 +216,7 @@ return (
 
     <section className="flex flex-row justify-center bg-cyan-300">
         
-        <div className="w-full">
+        <div className="w-full md:w-1/2 p-0">
 
             <div className='container mx-auto px-3 xl:px-0'>
 

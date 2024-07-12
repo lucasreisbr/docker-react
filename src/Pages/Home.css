@@ -33,3 +33,7 @@
     border-radius: 8px !important;
     border-color: transparent !important;
 }
+
+#rd-row-juvacwbo .bricks--column > div {
+    padding: 0 !important;
+  }

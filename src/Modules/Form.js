@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Pages/Home.css';
 
-class Form extends Component {
+class Form extends Component{
 
 componentDidMount() { 
     if (window.RDStationForms){
@@ -11,11 +11,9 @@ componentDidMount() {
 
 render() { 
 	return ( 
-
         <div className='mb-24'>
-            <div role="main" id="newsletter-nova-home-31b938c6b42145723f7a"></div>
+            <div className='p-0' role="main" id="newsletter-nova-home-31b938c6b42145723f7a"></div>
         </div>
-	
 	); 
 } 
 } 
