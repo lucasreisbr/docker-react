@@ -211,9 +211,11 @@ return (
                         </Navbar.Link>
                     </li>
                     <li>
-                        <a href="/" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        Área do aluno(as)
-                        </a>
+                        <Navbar.Link className="m-0 p-0" active={path === "/alunos"} as={"div"}> 
+                            <Link to="/alunos"> 
+                                Área do aluno(as)
+                            </ Link>   
+                        </Navbar.Link>
                     </li>
                 </div>
             </ul>

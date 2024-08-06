@@ -6,6 +6,7 @@ import Navbar from './Modules/Navbar';
 import Home from '../src/Pages/Home';
 import Polos from '../src/Pages/Polos';
 import Equipe from '../src/Pages/Equipe';
+import Alunos from '../src/Pages/AreaAluno';
 
 function App() {
     
@@ -18,6 +19,7 @@ return (
             <Route index element={<Home />} />
             <Route path="polos" element={<Polos />} />
             <Route path="equipe" element={<Equipe />} />
+            <Route path="alunos" element={<Alunos />} />
         </Routes>
     </BrowserRouter>
 </div>

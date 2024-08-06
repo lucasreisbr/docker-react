@@ -1,5 +1,10 @@
 import logo from '../logo-ibresp.svg';
 import logoAbed from '../images/logo-abed.png'
+import { FaInstagram } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaSpotify } from "react-icons/fa6";
 import './Footer.css';
 
 
@@ -66,39 +71,68 @@ export default function Footer() {
                     
 
 
-                    <div className=' grid grid-cols-1 lg:grid-cols-3 gap-5 justify-items-center mb-20'>
+                    <div className=' grid grid-cols-1 lg:grid-cols-3 gap-5 justify-items-center mb-10'>
 
                         <div className='w-full'>
                             <p className=' text-cyan-400 text-start font-light leading-loose'>
-                            <a href='/home'>Curso Técnico em Transações Imobiliárias</a><br></br>
-                            <a href='/home'>Curso Avaliação de Imóveis</a><br></br>
-                            <a href='/home'>Curso Documentação Imobiliária</a><br></br>
-                            <a href='/home'>Curso Financiamento e Crédito Imobiliário</a><br></br>
-                            <a href='/home'>Curso Captação de Imóveis na Prática</a><br></br>
+                            <a href='https://www.ibresp.com.br/Curso-TTI-IBRESP/'>Curso Técnico em Transações Imobiliárias</a><br></br>
+                            <a href='https://www.ibresp.com.br/curso-de-avaliacao-de-imoveis/'>Curso Avaliação de Imóveis</a><br></br>
+                            <a href='https://www.ibresp.com.br/curso-de-documentacao-imobiliaria/'>Curso Documentação Imobiliária</a><br></br>
+                            <a href='https://www.ibresp.com.br/curso-de-financiamento-e-credito-imobiliario/'>Curso Financiamento e Crédito Imobiliário</a><br></br>
+                            <a href='https://www.ibresp.com.br/curso-captacao-imoveis-na-pratica/'>Curso Captação de Imóveis na Prática</a><br></br>
                             </p>
                         </div>
 
                         <div className='w-full'>
                             <p className=' text-cyan-400 text-start font-light leading-loose'>
-                            <a href='/home'>Curso Fotografia Imobiliária</a><br></br>
-                            <a href='/home'>Curso Marketing Imobiliário</a><br></br> 
-                            <a href='/home'>Curso Perito Judicial</a><br></br> 
-                            <a href='/home'>Curso Técnicas de Negociação e Vendas</a><br></br>
-                            <a href='/home'>Curso Inferência e Estátistica</a><br></br>
+                            <a href='https://www.ibresp.com.br/curso-fotografia-imobiliaria/'>Curso Fotografia Imobiliária</a><br></br>
+                            <a href='https://www.ibresp.com.br/curso-de-marketing-imobiliario/'>Curso Marketing Imobiliário</a><br></br> 
+                            <a href='https://www.ibresp.com.br/curso-perito-judicial/'>Curso Perito Judicial</a><br></br> 
+                            <a href='https://www.ibresp.com.br/curso-tecnicas-de-negociacao-e-vendas/'>Curso Técnicas de Negociação e Vendas</a><br></br>
+                            <a href='https://ibresp.com.br/curso-inferencia-estatistica-na-avaliacao-imobiliaria/'>Curso Inferência e Estátistica</a><br></br>
                             </p>
                         </div>
 
 
                         <div className='w-full'>
                             <p className=' text-cyan-400 text-start font-light leading-loose'>
-                            <a href='/home'>Curso Gestão de Imóvei</a><br></br> 
-                            <a href='/home'>Curso Síndico Profissional</a><br></br> 
-                            <a href='/home'>Curso Administração de Condomínios</a><br></br> 
-                            <a href='/home'>Curso Tokenização Imobiliária</a><br></br>
+                            <a href='https://ibresp.com.br/curso-gestao-de-locacao-de-imoveis/'>Curso Gestão de Locação de Imóveis</a><br></br> 
+                            <a href='https://ibresp.com.br/curso-sindico-profissional/'>Curso Síndico Profissional</a><br></br> 
+                            <a href='https://ibresp.com.br/curso-administracao-de-condominio/'>Curso Administração de Condomínios</a><br></br> 
+                            <a href='https://ibresp.com.br/curso-mercado-imobiliario-digital/'>Curso Tokenização Imobiliária</a><br></br>
                             </p>
                         </div>
 
                     </div>
+
+                    <div className='flex flex-row justify-center mt-10 gap-6 md:gap-10 lg:gap-12'>
+
+                        <a href='https://www.instagram.com/corretoribresp/' target='_blank' rel='noreferrer'>
+                            <i className="me-1 text-4xl text-cyan-400"> <FaInstagram /> </i>
+                        </a>
+
+                        <a href='https://www.youtube.com/CorretorIbresp' target='_blank' rel='noreferrer'>
+                            <i className="me-1 text-4xl text-cyan-400"> <FaYoutube /> </i>
+                        </a>
+
+                        <a href='https://www.linkedin.com/company/ibresp/' target='_blank' rel='noreferrer'>
+                            <i className="me-1 text-4xl text-cyan-400"> <FaLinkedinIn /> </i>
+                        </a>
+
+                        <a href='https://www.facebook.com/ibresp' target='_blank' rel='noreferrer'>
+                            <i className="me-1 text-4xl text-cyan-400"> <FaFacebookF /> </i>
+                        </a>
+
+                        <a href='https://open.spotify.com/show/3DIoEUI2w1E18wuoK0OEIF?si=4df935ee3ab04790' target='_blank' rel='noreferrer'>
+                            <i className="me-1 text-4xl text-cyan-400"> <FaSpotify /> </i>
+                        </a>
+                        
+
+                    </div>
+
+                    <p className='text-white text-center pb-7 font-light text-sm'>
+                    Copyright © 2024 Ibresp - Todos os direitos reservados
+                    </p>
 
                 </div>
 
