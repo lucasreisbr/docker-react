@@ -1,6 +1,5 @@
 import Background from '../images/hero-ibresp.webp';
 import Vantagens from '../images/bg-vantagens-corretor.webp';
-import Destaque from '../images/destaque.webp';
 import Banner from '../images/banner.avif';
 import BannerMob from '../images/banner-mob.webp';
 import CarouselCourses from '../Modules/CarouselCourses';
@@ -186,7 +185,7 @@ return (
 
     </section>
 
-    <section style={{ background: `url(${Destaque})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-center">
+    <section className="bg-destak flex flex-row min-h-screen justify-center">
         
         <div className="w-full">
 

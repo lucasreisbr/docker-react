@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from '../Modules/Footer';
 
 function Equipe() {
     return(
@@ -34,8 +35,8 @@ function Equipe() {
   </div>
 </div>
 
-
-        </div>
+  <Footer/>
+</div>
     );
 }
 
