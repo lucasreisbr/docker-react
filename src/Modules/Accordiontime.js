@@ -1,15 +1,15 @@
 import { Accordion } from "flowbite-react";
 import { FaMapLocationDot } from "react-icons/fa6";
-import './Accordionpolo.css';
+import './Accordiontime.css';
 
-export default function Accordionpolo() {
+export default function Accordiontime() {
 return (
 
 
 
 <div className="flex flex-row justify-center mt-12 mb-24 p-3 lg:p-0">
 
-    <div className="container accordion">
+    <div className="container accordion-time">
 
 <Accordion collapseAll>
 

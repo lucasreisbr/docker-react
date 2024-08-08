@@ -6,13 +6,13 @@ function Polos() {
     return(
 <div>
 
-  <div className=" flex flex-row justify-center">
+  <div className=" flex flex-row justify-center p-3 lg:p-0">
 
     <div className="container mt-12">
-      <h1 className=" text-violet-900 text-4xl font-bold">
+      <h1 className=" text-violet-800 text-4xl font-bold">
           Polos IBRESP 
       </h1>
-      <p>Um polo sempre perto de você!</p>
+      <p>Sempre um lugar perto de você!</p>
 
     </div>
   </div> 

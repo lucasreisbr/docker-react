@@ -1,0 +1,9 @@
+.accordion button {
+    background-color: rgb(91 33 182);
+    &:hover{
+        background-color: rgb(103 232 249);
+    }
+    &:focus{
+        background-color: rgb(103 232 249);
+    }
+}
