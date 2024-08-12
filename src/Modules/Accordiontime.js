@@ -1,5 +1,8 @@
 import { Accordion } from "flowbite-react";
-import { FaMapLocationDot } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
+import Teamphoto from "../images/team/photo.png";
+import Bruno from "../images/team/bruno-fialho.png";
+import Vagner from "../images/team/vagner-lopes.png";
 import './Accordiontime.css';
 
 export default function Accordiontime() {
@@ -13,81 +16,103 @@ return (
 
 <Accordion collapseAll>
 
+<Accordion.Panel>
+        <Accordion.Title className="text-white text-2xl" >Central de vendas</Accordion.Title>
+            <Accordion.Content>
+            
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
+
+                <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-purple-500 mb-3" src={Bruno} alt="Bruno Fialho" title="Bruno Fialho"/>
+                        <h5 className="font-bold">Bruno Fialho</h5>
+                        <p className="mb-2">Central de vendas</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511953207279&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">(11) 95320-7279</p>
+                        </a>
+                    </div>
+
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
+                        </a>
+                    </div>
+
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </Accordion.Content>
+    </Accordion.Panel>
+
     <Accordion.Panel>
         <Accordion.Title className="text-white text-2xl">São Paulo</Accordion.Title>
             <Accordion.Content>
 
                 <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-purple-500 mb-3" src={Vagner} alt="Vagner Lopes" title="Vagner Lopes"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">(11) 97332-8858</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-green-500 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-orange-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
-                        </a>
-                    </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
-                        </a>
-                    </div>
-
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
-                        </a>
-                    </div>
-
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-teal-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
@@ -102,27 +127,30 @@ return (
             
                 <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-purple-500 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
@@ -137,27 +165,30 @@ return (
             <Accordion.Content>
                 <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-purple-500 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
@@ -171,27 +202,30 @@ return (
             <Accordion.Content>
                 <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-purple-500 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 
-                    <div className="text-gray-800">
-                        <h5 className="font-bold">Sede</h5>
-                        <p>Alameda dos Guatás, 659 Planalto Paulista</p>
-                        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
                         </a>
                     </div>
 

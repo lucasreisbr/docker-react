@@ -1,5 +1,5 @@
 .accordion button {
-    background-color: rgb(91 33 182);
+    background-color: rgb(23 140 179);
     &:hover{
         background-color: rgb(103 232 249);
     }

@@ -23,7 +23,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -31,7 +31,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -39,7 +39,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -47,7 +47,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -55,7 +55,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -63,7 +63,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -71,7 +71,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -79,7 +79,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -87,7 +87,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -106,7 +106,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -114,7 +114,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -122,7 +122,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -141,7 +141,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -149,7 +149,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -157,7 +157,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -175,7 +175,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -183,7 +183,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 
@@ -191,7 +191,7 @@ return (
                         <h5 className="font-bold">Sede</h5>
                         <p>Alameda dos Guatás, 659 Planalto Paulista</p>
                         <a href="https://www.google.com/maps" target="_blank" rel="noreferrer">
-                            <i className="text-3xl text-violet-800" ><FaMapLocationDot/> </i>
+                            <i className="text-3xl text-cyan-700" ><FaMapLocationDot/> </i>
                         </a>
                     </div>
 

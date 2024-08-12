@@ -9,7 +9,7 @@ function Polos() {
   <div className=" flex flex-row justify-center p-3 lg:p-0">
 
     <div className="container mt-12">
-      <h1 className=" text-violet-800 text-4xl font-bold">
+      <h1 className=" text-cyan-700 text-4xl font-bold">
           Polos IBRESP 
       </h1>
       <p>Sempre um lugar perto de você!</p>
