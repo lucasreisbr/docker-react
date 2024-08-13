@@ -23,7 +23,6 @@ return(
 
 <div>
 
-
 <h1 className='text-purple-800 mb-8 text-4xl font-bold px-3 xl:px-0'>
 E-books gratuitos
 </h1>

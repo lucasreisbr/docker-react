@@ -240,7 +240,7 @@ return (
                         </a>
                     </li>
                     <li>
-                        <a href="/home" className="hover:text-primary-600 dark:hover:text-primary-500">
+                        <a href="/#biblioteca" className="hover:text-primary-600 dark:hover:text-primary-500">
                         Biblioteca IBRESP
                         </a>
                     </li>
