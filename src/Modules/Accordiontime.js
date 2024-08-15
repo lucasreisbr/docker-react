@@ -23,7 +23,7 @@ return (
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
                 <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-purple-500 mb-3" src={Bruno} alt="Bruno Fialho" title="Bruno Fialho"/>
+                        <img className="rounded-md bg-purple-500 mb-3 shadow-lg shadow-slate-400" src={Bruno} alt="Bruno Fialho" title="Bruno Fialho"/>
                         <h5 className="font-bold">Bruno Fialho</h5>
                         <p className="mb-2">Central de vendas</p>
                         <a href="https://api.whatsapp.com/send?phone=5511953207279&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -32,7 +32,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className="rounded-md bg-cyan-400 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -41,7 +41,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className="rounded-md bg-yellow-200 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -61,7 +61,7 @@ return (
                 <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-purple-500 mb-3" src={Vagner} alt="Vagner Lopes" title="Vagner Lopes"/>
+                        <img className=" rounded-md bg-purple-500 mb-3 shadow-lg shadow-slate-400" src={Vagner} alt="Vagner Lopes" title="Vagner Lopes"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -70,7 +70,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-cyan-400 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -79,7 +79,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-yellow-200 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -88,17 +88,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-green-500 mb-3" src={Teamphoto} alt="team" title="team"/>
-                        <h5 className="font-bold">Vagner Lopes</h5>
-                        <p className="mb-2">Coordenador Comercial</p>
-                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
-                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
-                        </a>
-                    </div>
-
-
-                    <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-orange-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-green-500 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -108,7 +98,17 @@ return (
 
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-teal-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-orange-400 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
+                        <h5 className="font-bold">Vagner Lopes</h5>
+                        <p className="mb-2">Coordenador Comercial</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
+                            <i className="text-2xl text-violet-800 float-start me-1" ><FaWhatsapp/> </i> <p className="text-violet-800">11 9000-0000</p>
+                        </a>
+                    </div>
+
+
+                    <div className="text-gray-800 p-3">
+                        <img className=" rounded-md bg-teal-400 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -128,7 +128,7 @@ return (
                 <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
                 <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-purple-500 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-purple-500 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -137,7 +137,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-cyan-400 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -146,7 +146,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-yellow-200 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -166,7 +166,7 @@ return (
                 <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-purple-500 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-purple-500 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -175,7 +175,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-cyan-400 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -184,7 +184,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-yellow-200 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -203,7 +203,7 @@ return (
                 <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-purple-500 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-purple-500 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -212,7 +212,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-cyan-400 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-cyan-400 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
@@ -221,7 +221,7 @@ return (
                     </div>
 
                     <div className="text-gray-800 p-3">
-                        <img className=" rounded-md bg-yellow-200 mb-3" src={Teamphoto} alt="team" title="team"/>
+                        <img className=" rounded-md bg-yellow-200 mb-3 shadow-lg shadow-slate-400" src={Teamphoto} alt="team" title="team"/>
                         <h5 className="font-bold">Vagner Lopes</h5>
                         <p className="mb-2">Coordenador Comercial</p>
                         <a href="https://api.whatsapp.com/send?phone=5511973328858&text=Olá,%20tudo%20bem?%20" target="_blank" rel="noreferrer">
