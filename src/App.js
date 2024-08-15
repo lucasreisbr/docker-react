@@ -7,13 +7,16 @@ import Home from '../src/Pages/Home';
 import Polos from '../src/Pages/Polos';
 import Equipe from '../src/Pages/Equipe';
 import Alunos from '../src/Pages/AreaAluno';
+import ScrollToTop from "./Modules/ScrollToTop";
 
 function App() {
     
 return (
     
 <div>
-    <BrowserRouter> 
+   
+    <BrowserRouter>
+    <ScrollToTop /> 
     <Navbar/>
         <Routes>
             <Route index element={<Home />} />
