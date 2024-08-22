@@ -21,8 +21,8 @@ return (
     <section style={{ background: `url(${Background})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-center">
         <div className="w-full">
             <div className='container mx-auto px-3 xl:px-0'>
-                <div className=' mt-44 ' >
-                    <h1 className="w-9/12 text-white font-bold text-3xl sm:text-4xl md:text-6xl mb-44 ">
+                <div className='mt-20' >
+                    <h1 className="w-9/12 text-white font-bold text-3xl sm:text-4xl md:text-6xl mb-56">
                         <span className="leading-relaxed">Seja um Corretor de Imóveis com uma grande formação!</span>
                     </h1>
                 </div>

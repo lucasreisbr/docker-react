@@ -197,9 +197,13 @@ return (
             <ul className="grid grid-cols-1">
                 <div className="space-y-2 md:space-y-4 p-4">
                     <li>
-                        {/* <a href="/polos" className="hover:text-primary-600 dark:hover:text-primary-500">
-                            Polos
-                        </a> */}
+                        <Navbar.Link className="m-0 p-0" active={path === "/alunos"} as={"div"}> 
+                            <Link to="/alunos"> 
+                                Área do aluno(a)
+                            </ Link>   
+                        </Navbar.Link>
+                    </li>
+                    <li>                
                         <Navbar.Link className="m-0 p-0 active" active={path === "/polos"} as={"div"}> 
                             <Link to="/polos"> 
                                 Polos
@@ -214,9 +218,9 @@ return (
                         </Navbar.Link>
                     </li>
                     <li>
-                        <Navbar.Link className="m-0 p-0" active={path === "/alunos"} as={"div"}> 
-                            <Link to="/alunos"> 
-                                Área do aluno(a)
+                        <Navbar.Link className="m-0 p-0" active={path === "/sobre"} as={"div"}> 
+                            <Link to="/sobre"> 
+                                Sobre
                             </ Link>   
                         </Navbar.Link>
                     </li>
