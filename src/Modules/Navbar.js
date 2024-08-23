@@ -244,17 +244,10 @@ return (
                         </a>
                     </li>
 
-                    {/* <li>
-                        <HashLink smooth to="/#biblioteca">
-                            Biblioteca
-                        </HashLink>
-                    </li> */}
-                   
                     <li>
-                        <a href="/#biblioteca" className="hover:text-primary-600 dark:hover:text-primary-500">
-                            Biblioteca IBRESP
-                        </a>
+                        <Link className="hover:text-primary-600 dark:hover:text-primary-500" to="/#biblioteca">Biblioteca</Link>
                     </li>
+
                 </div>
             </ul>
             </MegaMenu.Dropdown>

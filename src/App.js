@@ -9,6 +9,7 @@ import Equipe from '../src/Pages/Equipe';
 import Alunos from '../src/Pages/AreaAluno';
 import Sobre from '../src/Pages/Sobre';
 import ScrollToTop from "./Modules/ScrollToTop";
+import ScrollToAnchor from "./Modules/ScrollToAnchor";
 
 function App() {
     
@@ -17,6 +18,7 @@ return (
 <div>
     <BrowserRouter>
     <ScrollToTop /> 
+    <ScrollToAnchor /> 
     <Navbar/>
         <Routes>
             <Route index element={<Home />} />
