@@ -243,9 +243,16 @@ return (
                         Vídeos
                         </a>
                     </li>
+
+                    {/* <li>
+                        <HashLink smooth to="/#biblioteca">
+                            Biblioteca
+                        </HashLink>
+                    </li> */}
+                   
                     <li>
                         <a href="/#biblioteca" className="hover:text-primary-600 dark:hover:text-primary-500">
-                        Biblioteca IBRESP
+                            Biblioteca IBRESP
                         </a>
                     </li>
                 </div>
