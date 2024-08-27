@@ -71,7 +71,7 @@ return (
                 </p>
                 <div className="text-start mt-5">
                     <a href="https://www.ibresp.com.br/especialista/Vendas/" target="_self">
-                        <button className=" bg-emerald-600 text-white rounded-md hover:bg-emerald-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-md font-normal mb-4"> Saiba mais</button>
+                        <button className=" bg-emerald-800 text-white rounded-md hover:bg-emerald-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-md font-normal mb-4"> Saiba mais</button>
                     </a>
                 </div>
             </div>
@@ -84,7 +84,7 @@ return (
                 </p>
                 <div className="text-start mt-5">
                     <a href="https://www.ibresp.com.br/especialista/Locacao/" target="_self">
-                        <button className=" bg-emerald-600 text-white rounded-md hover:bg-emerald-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-md font-normal mb-4"> Saiba mais</button>
+                        <button className=" bg-emerald-800 text-white rounded-md hover:bg-emerald-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-md font-normal mb-4"> Saiba mais</button>
                     </a>
                 </div>
             </div>
@@ -97,7 +97,7 @@ return (
                 </p>
                 <div className="text-start mt-5">
                     <a href="https://www.ibresp.com.br/especialista/Captacao/" target="_self">
-                        <button className=" bg-emerald-600 text-white rounded-md hover:bg-emerald-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-md font-normal mb-4"> Saiba mais</button>
+                        <button className=" bg-emerald-800 text-white rounded-md hover:bg-emerald-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-md font-normal mb-4"> Saiba mais</button>
                     </a>
                 </div>
             </div>
@@ -110,7 +110,7 @@ return (
                 </p>
                 <div className="text-start mt-5">
                     <a href="https://www.ibresp.com.br/especialista/Avaliacao/" target="_self">
-                        <button className=" bg-emerald-600 text-white rounded-md hover:bg-emerald-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-md font-normal"> Saiba mais</button>
+                        <button className=" bg-emerald-800 text-white rounded-md hover:bg-emerald-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 md:mb-2 text-md font-normal"> Saiba mais</button>
                     </a>
                 </div>
                 <div id="biblioteca"></div>
