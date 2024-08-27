@@ -80,7 +80,7 @@ return (
         <div className="flex flex-wrap w-full items-center justify-between py-4 md:space-x-8">
             
             <Navbar.Brand href="/">
-                <img alt="Logo IBRESP a melhor escola imobiliária do Brasil" src={logo} className="lg:h-14 md:h-7 h-8" />
+                <img width="100%" height="auto" alt="Logo IBRESP a melhor escola imobiliária do Brasil" src={logo} className="lg:h-14 md:h-7 h-8" />
             </Navbar.Brand>
         
             <Navbar.Toggle />

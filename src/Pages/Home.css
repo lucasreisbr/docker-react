@@ -23,6 +23,24 @@
     }
 }
 
+.bg-vantagem{
+    background-image: url('../images/bg-vantagens-corretor.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-hero{
+    background-image: url('../images/hero-ibresp.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+@media (max-width:600px) {
+    background-image: url('../images/hero-ibresp-mobile.webp');
+    
+}
+}
+
 /* #form-newsletter-nova-home-31b938c6b42145723f7a:first-child {
     display: none;
 } */

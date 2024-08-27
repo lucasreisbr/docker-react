@@ -1,5 +1,5 @@
 import logo from '../logo-ibresp.svg';
-import logoAbed from '../images/logo-abed.png'
+import logoAbed from '../images/logo-abed.webp'
 import { FaInstagram } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
@@ -20,7 +20,7 @@ export default function Footer() {
                 <div className='container mx-auto px-3 xl:px-0'>
 
                     <div className='mt-14 w-full'>
-                        <img alt="Logo Footer IBRESP" src={logo} className="lg:h-12 md:h-10 h-8" />
+                        <img width="auto" height="auto" alt="Logo Footer IBRESP" src={logo} className="lg:h-12 md:h-10 h-8" />
                     </div>
 
                     <div className=' grid grid-cols-1 lg:grid-cols-3 gap-5 justify-items-center mt-16'>
@@ -59,7 +59,7 @@ export default function Footer() {
 
 
                         <div className='w-fit place-content-center'>
-                            <img alt="Logo Abed" src={logoAbed} className='h-40 mt-12 md:mt-0' />
+                            <img width="auto" height="auto" alt="Logo Abed" src={logoAbed} className='h-40 mt-12 md:mt-0' />
                         </div>
 
                     </div>

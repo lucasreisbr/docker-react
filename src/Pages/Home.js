@@ -1,5 +1,3 @@
-import Background from '../images/hero-ibresp.webp';
-import Vantagens from '../images/bg-vantagens-corretor.webp';
 import Banner from '../images/banner.avif';
 import BannerMob from '../images/banner-mob.webp';
 import CarouselCourses from '../Modules/CarouselCourses';
@@ -18,7 +16,7 @@ function Home() {
 return (
 <div>
 
-    <section style={{ background: `url(${Background})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-center">
+    <section className="flex flex-row bg-hero min-h-screen justify-center">
         <div className="w-full">
             <div className='container mx-auto px-3 xl:px-0'>
                 <div className='mt-20' >
@@ -42,13 +40,13 @@ return (
     <section className="flex flex-row justify-center">
         <div className="container my-14 desktop px-3 xl:px-0">
             <a href="https://www.ibresp.com.br/" target="_self">
-                <img src={Banner} alt="Banner site" title="Banner site"/>
+                <img width="100%" height="auto" src={Banner} alt="Banner site" title="Banner site"/>
             </a>
         </div>
 
         <div className="container my-14 mobile px-3">
             <a href="https://www.ibresp.com.br/" target="_self">
-                <img src={BannerMob} alt="Banner site" title="Banner site"/>
+                <img width="100%" height="auto" src={BannerMob} alt="Banner site" title="Banner site"/>
             </a>
         </div>
     </section>
@@ -66,7 +64,7 @@ return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-stretch gap-5">
             
             <div>
-                <img width='auto' height='auto' className='rounded-xl shadow-lg mb-5' src={Vendas} alt='Especialista em vendas'/>
+                <img width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Vendas} alt='Especialista em vendas'/>
                 <h2 className='my-2 text-2xl font-bold text-orange-400'>Especialista em vendas</h2>
                 <p className='text-gray-600'>
                 Saiba utilizar as melhores técnicas de negociação e vendas para se destacar na carreira e conseguir os melhores resultados.
@@ -79,7 +77,7 @@ return (
             </div>
 
             <div>
-                <img width='auto' height='auto' className='rounded-xl shadow-lg mb-5' src={Locacao} alt='Especialista em locação'/>
+                <img width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Locacao} alt='Especialista em locação'/>
                 <h2 className='my-2 text-2xl font-bold text-orange-400'>Especialista em locação</h2>
                 <p className='text-gray-600'>
                 Aproveite os benefícios de ser um profissional na área de locação para ampliar seu campo de atuação e aumentar seus ganhos.
@@ -92,7 +90,7 @@ return (
             </div>
 
             <div>
-                <img width='auto' height='auto' className='rounded-xl shadow-lg mb-5' src={Captacao} alt='Especialista em captação'/>
+                <img width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Captacao} alt='Especialista em captação'/>
                 <h2 className='my-2 text-2xl font-bold text-orange-400'>Especialista em captação</h2>
                 <p className='text-gray-600'>
                 Conquiste uma carreira reconhecida e valorizada no mercado imobiliário atuando em uma área estratégica para fazer mais negócios.
@@ -105,7 +103,7 @@ return (
             </div>
 
             <div>
-                <img width='auto' height='auto' className='rounded-xl shadow-lg mb-5' src={Avaliacao} alt='Especialista em avaliação'/>
+                <img width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Avaliacao} alt='Especialista em avaliação'/>
                 <h2 className='my-2 text-2xl font-bold text-orange-400'>Especialista em avaliação</h2>
                 <p className='text-gray-600'>
                 Aumente o seu campo de atuação sendo um profissional especializado em avaliação de imóveis para aumentar os seus ganhos.
@@ -128,7 +126,7 @@ return (
         </div>
     </section>
 
-    <section style={{ background: `url(${Vantagens})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="flex flex-row min-h-screen justify-cente">
+    <section className="flex flex-row bg-vantagem min-h-screen justify-cente">
 
         <div className="w-full">
             <div className='container mx-auto px-3 xl:px-0'>
