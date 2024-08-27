@@ -20,7 +20,7 @@ export default function Footer() {
                 <div className='container mx-auto px-3 xl:px-0'>
 
                     <div className='mt-14 w-full'>
-                        <img width="auto" height="auto" alt="Logo Footer IBRESP" src={logo} className="lg:h-12 md:h-10 h-8" />
+                        <img loading='lazy' width="auto" height="auto" alt="Logo Footer IBRESP" src={logo} className="lg:h-12 md:h-10 h-8" />
                     </div>
 
                     <div className=' grid grid-cols-1 lg:grid-cols-3 gap-5 justify-items-center mt-16'>
@@ -59,7 +59,7 @@ export default function Footer() {
 
 
                         <div className='w-fit place-content-center'>
-                            <img width="auto" height="auto" alt="Logo Abed" src={logoAbed} className='h-40 mt-12 md:mt-0' />
+                            <img loading='lazy' width="auto" height="auto" alt="Logo Abed" src={logoAbed} className='h-40 mt-12 md:mt-0' />
                         </div>
 
                     </div>
@@ -107,23 +107,23 @@ export default function Footer() {
 
                     <div className='flex flex-row justify-center mt-10 gap-6 md:gap-10 lg:gap-12'>
 
-                        <a href='https://www.instagram.com/corretoribresp/' target='_blank' rel='noreferrer'>
+                        <a href='https://www.instagram.com/corretoribresp/' aria-label='Instagram' target='_blank' rel='noreferrer'>
                             <i className="me-1 text-4xl text-cyan-400"> <FaInstagram /> </i>
                         </a>
 
-                        <a href='https://www.youtube.com/CorretorIbresp' target='_blank' rel='noreferrer'>
+                        <a href='https://www.youtube.com/CorretorIbresp' aria-label='Youtube' target='_blank' rel='noreferrer'>
                             <i className="me-1 text-4xl text-cyan-400"> <FaYoutube /> </i>
                         </a>
 
-                        <a href='https://www.linkedin.com/company/ibresp/' target='_blank' rel='noreferrer'>
+                        <a href='https://www.linkedin.com/company/ibresp/' aria-label='Linkedin' target='_blank' rel='noreferrer'>
                             <i className="me-1 text-4xl text-cyan-400"> <FaLinkedinIn /> </i>
                         </a>
 
-                        <a href='https://www.facebook.com/ibresp' target='_blank' rel='noreferrer'>
+                        <a href='https://www.facebook.com/ibresp' target='_blank' aria-label='Facebook' rel='noreferrer'>
                             <i className="me-1 text-4xl text-cyan-400"> <FaFacebookF /> </i>
                         </a>
 
-                        <a href='https://open.spotify.com/show/3DIoEUI2w1E18wuoK0OEIF?si=4df935ee3ab04790' target='_blank' rel='noreferrer'>
+                        <a href='https://open.spotify.com/show/3DIoEUI2w1E18wuoK0OEIF?si=4df935ee3ab04790' aria-label='Spotify' target='_blank' rel='noreferrer'>
                             <i className="me-1 text-4xl text-cyan-400"> <FaSpotify /> </i>
                         </a>
                         

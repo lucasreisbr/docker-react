@@ -87,11 +87,11 @@ return (
     
         <Navbar.Collapse >
 
-            <Navbar.Link href="https://ibresp.com.br/loja/Inicio" target="_blank"> Loja</Navbar.Link>
+            <Navbar.Link href="https://ibresp.com.br/loja/Inicio" target="_blank"> <li>Loja</li></Navbar.Link>
         
             <div className={style} onClick={changeStyle}>
-            
-            <MegaMenu.Dropdown className=" btn-color bg-blue-950" toggle={<>Cursos</>}>
+                
+            <MegaMenu.Dropdown className=" btn-color bg-blue-950" toggle={<><li>Cursos</li></>}>
         
             <ul className="grid grid-cols-1 md:grid-cols-2">
                 <div className="space-y-2 md:space-y-6 p-4">
@@ -193,7 +193,7 @@ return (
             </div>
 
             <div className={style1} onClick={changeStyle1}>
-            <MegaMenu.Dropdown className=" bg-blue-950 " toggle={<>IBRESP</>}>
+            <MegaMenu.Dropdown className=" bg-blue-950 " toggle={<><li>IBRESP</li></>}>
             <ul className="grid grid-cols-1">
                 <div className="space-y-2 md:space-y-4 p-4">
                     <li>
@@ -230,7 +230,7 @@ return (
             </div>
 
             <div className={style2} onClick={changeStyle2}>
-            <MegaMenu.Dropdown style={{ transform: `translate(${1060}px, ${72}px)` }} className=" bg-blue-950 ml-0 " toggle={<>Conteúdo</>}>
+            <MegaMenu.Dropdown style={{ transform: `translate(${1060}px, ${72}px)` }} className=" bg-blue-950 ml-0 " toggle={<><li>Conteúdo</li></>}>
             <ul className="grid grid-cols-1">
                 <div className="space-y-2 md:space-y-4 p-4">
                     <li>
