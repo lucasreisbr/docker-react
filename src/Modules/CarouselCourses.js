@@ -31,7 +31,7 @@ Cursos IBRESP
 </h1>
 
 <div className="container mx-auto px-3 xl:px-0">
-<OwlCarousel className='courses owl-theme' autoplay loop margin={30}  stagePadding={50} responsive= {
+<OwlCarousel className='courses owl-theme' autoplay nav loop margin={30}  stagePadding={50} dots={false} responsive= {
     {
         '1':{
             items: 1
@@ -54,7 +54,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -67,7 +67,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/curso-de-avaliacao-de-imoveis-em-sao-paulo/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -80,7 +80,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/curso-documentacao-imobiliaria/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -93,7 +93,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/curso-financiamento-e-credito-imobiliario/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -106,7 +106,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/curso-captacao-de-imoveis-na-pratica/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -119,7 +119,7 @@ Cursos IBRESP
         </p> 
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/curso-de-fotografia-imobiliaria/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -132,7 +132,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/curso-marketing-imobiliario/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -145,7 +145,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/curso-perito-judicial/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -158,7 +158,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://www.ibresp.com.br/curso-tecnicas-de-negociacao-e-vendas/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -171,7 +171,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://ibresp.com.br/curso-inferencia-estatistica-na-avaliacao-imobiliaria/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -184,7 +184,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://ibresp.com.br/curso-gestao-de-locacao-de-imoveis/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -197,7 +197,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://ibresp.com.br/curso-sindico-profissional/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -210,7 +210,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://ibresp.com.br/curso-administracao-de-condominio/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>
@@ -223,7 +223,7 @@ Cursos IBRESP
         </p>
         <div className="text-start mt-5">
             <a href="https://ibresp.com.br/curso-mercado-imobiliario-digital/" target="_self">
-                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-28 text-md font-normal"> Saiba mais</button>
+                <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-white hover:scale-110 duration-300 ease-in-out px-4 py-2 mb-14 text-md font-normal"> Saiba mais</button>
             </a>
         </div>
     </div>

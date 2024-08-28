@@ -41,21 +41,6 @@ export default function Component() {
         else setStyle2("btn-active-on");
     };
 
-    // const [style1, setStyle1] = useState("btn-active1");
-
-    // const changeStyle1 = () => {
-    //     console.log("you just clicked");
-    //     if (style !== "btn-active1") setStyle1("btn-active1");
-    //     else setStyle1("btn-active-on1");
-    // };
-
-    // const [style2, setStyle2] = useState("btn-active2");
-    // const changeStyle2 = () => {
-    //     console.log("you just clicked");
-    //     if (style !== "btn-active2") setStyle2("btn-active2");
-    //     else setStyle2("btn-active-on2");
-    // };
-
     const path = useLocation().pathname;
 
     const [colorChange, setColorchange] = useState(false);
@@ -89,6 +74,8 @@ return (
 
             <Navbar.Link href="https://ibresp.com.br/loja/Inicio" target="_blank"> <ul><li>Loja</li></ul></Navbar.Link>
         
+
+            <li>
             <div className={style} onClick={changeStyle}>
                 
             <MegaMenu.Dropdown className=" btn-color bg-blue-950" toggle={<><ul><li>Cursos</li></ul></>}>
@@ -191,7 +178,9 @@ return (
             </ul>
             </MegaMenu.Dropdown>
             </div>
+            </li>
 
+            <li>
             <div className={style1} onClick={changeStyle1}>
             <MegaMenu.Dropdown className=" bg-blue-950 " toggle={<><ul><li>IBRESP</li></ul></>}>
             <ul className="grid grid-cols-1">
@@ -228,7 +217,10 @@ return (
             </ul>
             </MegaMenu.Dropdown>
             </div>
+            </li>
 
+
+            <li>
             <div className={style2} onClick={changeStyle2}>
             <MegaMenu.Dropdown style={{ transform: `translate(${1060}px, ${72}px)` }} className=" bg-blue-950 ml-0 " toggle={<><ul><li>Conteúdo</li></ul></>}>
             <ul className="grid grid-cols-1">
@@ -252,6 +244,8 @@ return (
             </ul>
             </MegaMenu.Dropdown>
             </div>
+            </li>
+           
 
             <Navbar.Link href="https://www.ibresp.com.br/espaco-do-corretor/" target="_blank">Soluções</Navbar.Link>
 

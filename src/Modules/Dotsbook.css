@@ -1,5 +1,5 @@
 .ebooks{
-    .owl-dot span {
+    /* .owl-dot span {
         background: rgb(85 33 181) !important;
     }
 
@@ -9,5 +9,29 @@
 
    .active span {
     background: rgb(168 149 244) !important;
+    } */
+
+    .owl-nav {
+        font-size: 7rem ;
+        color: rgb(85 33 181);
+        margin-top: -2rem !important;
     }
+    
+    .owl-prev {
+        margin: 0px 20px !important;
+    }
+
+    .owl-next {
+        margin: 0px 20px !important;
+    }
+
+    .owl-nav .owl-prev:hover {
+        background: transparent;
+        color: rgb(168 149 244);
+        text-decoration: none; }
+
+    .owl-nav .owl-next:hover {
+        background: transparent;
+        color: rgb(168 149 244);
+        text-decoration: none; }
 }
