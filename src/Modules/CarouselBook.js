@@ -41,7 +41,6 @@ E-books gratuitos
             items: 3
         }
     }
-    
 }>
     <div class='item'>
         <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={LGPD} alt='LGPD, o que o corretor de imóveis precisa saber?'/>

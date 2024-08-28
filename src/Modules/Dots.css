@@ -1,17 +1,4 @@
 .courses {
-
-    /* .owl-dot span {
-        background: rgb(23 37 84) !important;
-    }
-
-    .owl-dot:hover span {
-        background: rgb(34 211 238) !important;
-    }
-
-   .active span {
-        background: rgb(34 211 238) !important;
-    } */
-
     .owl-nav {
         font-size: 7rem ;
         color: rgb(23 37 84);
@@ -37,10 +24,4 @@
         text-decoration: none; }
 }
 
-/* .owl-theme .owl-dots .owl-dot span {
-    margin: 5px 18px !important;
-    @media (max-width:600px) {
-        margin: 5px 10px !important;
-    }
-} */
 
