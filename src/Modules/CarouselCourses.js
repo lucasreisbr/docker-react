@@ -12,8 +12,10 @@ import Marketing from '../images/ibresp-curso-marketing-imobiliario.webp';
 import Perito from '../images/ibresp-curso-perito-judicial.webp';
 import Vendas from '../images/ibresp-curso-tecnicas-de-negociacao-e-vendas.webp';
 import Inferencia from '../images/ibresp-curso-inferencia-estatistica.webp';
+import InferenciaSmall from '../images/ibresp-curso-inferencia-estatistica-small.webp';
 import Locacao from '../images/ibresp-curso-gestao-e-locacao-de-imoveis.webp';
 import Sindico from '../images/ibresp-curso-sindico-profissional.webp';
+import SindicoSmall from '../images/ibresp-curso-sindico-profissional-small.webp';
 import Condominios from '../images/ibresp-curso-administracao-de-condominios.webp';
 import Token from '../images/ibresp-curso-mercado-digital-imobiliario.webp';
 import './Dots.css';
@@ -164,7 +166,7 @@ Cursos IBRESP
     </div>
 
     <div class='item'>
-        <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Inferencia} alt='Inferência Estatística'/>
+        <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Inferencia} srcSet={`${InferenciaSmall} 320w, ${InferenciaSmall} 680w, ${Inferencia}   960w, ${Inferencia} 1980w`} alt='Inferência Estatística'/>
         <h2 className='my-2 text-2xl font-bold text-blue-950'>Inferência Estatística</h2>
         <p className='text-gray-600'>
         A Inferência Estatística é uma metodologia sofisticada e muito valorizada no mercado imobiliário por utilizar conceitos, cálculos e análises de dados para a conclusão de um estudo, laudo ou parecer técnico.
@@ -190,7 +192,7 @@ Cursos IBRESP
     </div>
 
     <div class='item'>
-        <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Sindico} alt='Síndico Profissional'/>
+        <img loading='lazy' className='rounded-xl shadow-lg mb-5' src={Sindico} srcSet={`${SindicoSmall} 320w, ${SindicoSmall} 680w, ${Sindico}   960w, ${Sindico} 1980w`} alt='Síndico Profissional'/>
         <h2 className='my-2 text-2xl font-bold text-blue-950'>Síndico Profissional</h2>
         <p className='text-gray-600'>
         Aprenda todos os assuntos pertinentes à Sindicância, desde a área de engenharia, relacionamento humano, prestação de serviço, noções jurídicas, documentação, saúde e sustentabilidade.
