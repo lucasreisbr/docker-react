@@ -126,7 +126,7 @@ return (
         </div>
     </section>
 
-    <section className="flex flex-row bg-vantagem min-h-screen justify-cente">
+    <section loading='lazy' className="flex flex-row bg-vantagem min-h-screen justify-cente">
 
         <div className="w-full">
             <div className='container mx-auto px-3 xl:px-0'>
@@ -184,7 +184,7 @@ return (
 
     </section>
 
-    <section className="bg-destak flex flex-row min-h-screen justify-center">
+    <section loading='lazy' className="bg-destak flex flex-row min-h-screen justify-center">
         
         <div className="w-full">
 

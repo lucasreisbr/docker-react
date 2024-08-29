@@ -24,4 +24,10 @@
         text-decoration: none; }
 }
 
-
+.item img{
+    width: 100% !important;
+    @media (max-width:380px) {
+        width: 251px !important;
+        height: auto;
+    }
+}
