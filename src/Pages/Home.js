@@ -6,7 +6,7 @@ import Vendas from '../images/ibresp-programa-especialista-vendas.webp';
 import Locacao from '../images/ibresp-programa-especialista-locacao.webp';
 import Captacao from '../images/ibresp-programa-especialista-captacao.webp';
 import Avaliacao from '../images/ibresp-programa-especialista-avaliacao.webp';
-// import Form from '../Modules/Form';
+import Form from '../Modules/Form';
 import Footer from '../Modules/Footer';
 import './Home.css';
 
@@ -223,7 +223,7 @@ return (
                     Assine nossa newsletter
                     </p>
 
-                    {/* <Form/> */}
+                    <Form/>
 
                 </div>
 

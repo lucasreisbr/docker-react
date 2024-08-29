@@ -17,6 +17,7 @@ import Locacao from '../images/ibresp-curso-gestao-e-locacao-de-imoveis.webp';
 import Sindico from '../images/ibresp-curso-sindico-profissional.webp';
 import SindicoSmall from '../images/ibresp-curso-sindico-profissional-small.webp';
 import Condominios from '../images/ibresp-curso-administracao-de-condominios.webp';
+import CondominiosSmall from '../images/ibresp-curso-administracao-de-condominios-small.webp';
 import Token from '../images/ibresp-curso-mercado-digital-imobiliario.webp';
 import './Dots.css';
 
@@ -205,7 +206,7 @@ Cursos IBRESP
     </div>
 
     <div class='item'>
-        <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Condominios} alt='Administração de Condomínios'/>
+        <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Condominios} srcSet={`${CondominiosSmall} 320w, ${CondominiosSmall} 680w, ${Condominios}   960w, ${Condominios} 1980w`} alt='Administração de Condomínios'/>
         <h2 className='my-2 text-2xl font-bold text-blue-950'>Administração de Condomínios</h2>
         <p className='text-gray-600'>
         O curso aborda os assuntos relevantes para uma boa administração como gestão, contabilidade, jurídico, documentação, relacionamento de pessoas, equipe de trabalho, obras e manutenções.
