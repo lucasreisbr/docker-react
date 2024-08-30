@@ -204,7 +204,7 @@ Cursos IBRESP
     </div>
 
     <div class='item'>
-        <img loading='lazy' className='rounded-xl shadow-lg mb-5' src={Sindico} srcSet={`${SindicoSmall} 320w, ${SindicoSmall} 680w, ${Sindico}   960w, ${Sindico} 1980w`} alt='Síndico Profissional'/>
+        <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Sindico} srcSet={`${SindicoSmall} 320w, ${SindicoSmall} 680w, ${Sindico}   960w, ${Sindico} 1980w`} alt='Síndico Profissional'/>
         <h2 className='my-2 text-2xl font-bold text-blue-950'>Síndico Profissional</h2>
         <p className='text-gray-600'>
         Aprenda todos os assuntos pertinentes à Sindicância, desde a área de engenharia, relacionamento humano, prestação de serviço, noções jurídicas, documentação, saúde e sustentabilidade.
