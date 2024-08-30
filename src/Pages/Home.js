@@ -6,6 +6,11 @@ import Vendas from '../images/ibresp-programa-especialista-vendas.webp';
 import Locacao from '../images/ibresp-programa-especialista-locacao.webp';
 import Captacao from '../images/ibresp-programa-especialista-captacao.webp';
 import Avaliacao from '../images/ibresp-programa-especialista-avaliacao.webp';
+import VendasSmall from '../images/ibresp-programa-especialista-vendas-small.webp';
+import LocacaoSmall from '../images/ibresp-programa-especialista-locacao-small.webp';
+import CaptacaoSmall from '../images/ibresp-programa-especialista-captacao-small.webp';
+import AvaliacaoSmall from '../images/ibresp-programa-especialista-avaliacao-small.webp';
+
 import Form from '../Modules/Form';
 import Footer from '../Modules/Footer';
 import './Home.css';
@@ -64,7 +69,7 @@ return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-stretch gap-5">
             
             <div>
-                <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Vendas} alt='Especialista em vendas'/>
+                <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Vendas} srcSet={`${VendasSmall} 320w, ${VendasSmall} 680w, ${Vendas}   960w, ${Vendas} 1980w`} alt='Especialista em vendas'/>
                 <h2 className='my-2 text-2xl font-bold text-emerald-600'>Especialista em vendas</h2>
                 <p className='text-gray-600'>
                 Saiba utilizar as melhores técnicas de negociação e vendas para se destacar na carreira e conseguir os melhores resultados.
@@ -77,7 +82,7 @@ return (
             </div>
 
             <div>
-                <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Locacao} alt='Especialista em locação'/>
+                <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Locacao} srcSet={`${LocacaoSmall} 320w, ${LocacaoSmall} 680w, ${Locacao}   960w, ${Locacao} 1980w`} alt='Especialista em locação'/>
                 <h2 className='my-2 text-2xl font-bold text-emerald-600'>Especialista em locação</h2>
                 <p className='text-gray-600'>
                 Aproveite os benefícios de ser um profissional na área de locação para ampliar seu campo de atuação e aumentar seus ganhos.
@@ -90,7 +95,7 @@ return (
             </div>
 
             <div>
-                <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Captacao} alt='Especialista em captação'/>
+                <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Captacao} srcSet={`${CaptacaoSmall} 320w, ${CaptacaoSmall} 680w, ${Captacao}   960w, ${Captacao} 1980w`} alt='Especialista em captação'/>
                 <h2 className='my-2 text-2xl font-bold text-emerald-600'>Especialista em captação</h2>
                 <p className='text-gray-600'>
                 Conquiste uma carreira reconhecida e valorizada no mercado imobiliário atuando em uma área estratégica para fazer mais negócios.
@@ -103,7 +108,7 @@ return (
             </div>
 
             <div>
-                <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Avaliacao} alt='Especialista em avaliação'/>
+                <img loading='lazy' width="750" height="528" className='rounded-xl shadow-lg mb-5' src={Avaliacao} srcSet={`${AvaliacaoSmall} 320w, ${AvaliacaoSmall} 680w, ${Avaliacao}   960w, ${Avaliacao} 1980w`} alt='Especialista em avaliação'/>
                 <h2 className='my-2 text-2xl font-bold text-emerald-600'>Especialista em avaliação</h2>
                 <p className='text-gray-600'>
                 Aumente o seu campo de atuação sendo um profissional especializado em avaliação de imóveis para aumentar os seus ganhos.
