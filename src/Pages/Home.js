@@ -11,7 +11,6 @@ import VendasSmall from '../images/ibresp-programa-especialista-vendas-small.web
 import LocacaoSmall from '../images/ibresp-programa-especialista-locacao-small.webp';
 import CaptacaoSmall from '../images/ibresp-programa-especialista-captacao-small.webp';
 import AvaliacaoSmall from '../images/ibresp-programa-especialista-avaliacao-small.webp';
-import Form from '../Modules/Form';
 import Footer from '../Modules/Footer';
 import './Home.css';
 
@@ -228,7 +227,6 @@ return (
                     Assine nossa newsletter
                     </p>
 
-                    <Form/>
 
                 </div>
 
