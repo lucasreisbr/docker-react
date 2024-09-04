@@ -23,8 +23,8 @@ return (
     <section className="flex flex-row bg-hero min-h-screen justify-center">
         <div className="w-full">
             <div className='container mx-auto px-3 xl:px-0'>
-                <div className='mt-20' >
-                    <h1 className="w-9/12 text-white font-bold text-3xl sm:text-4xl md:text-6xl mb-56">
+                <div className='mt-20'>
+                    <h1 loading='Lazy' className="w-9/12 text-white font-bold text-3xl sm:text-4xl md:text-6xl mb-56">
                         <span className="leading-relaxed">Seja um Corretor de Imóveis com uma grande formação!</span>
                     </h1>
                 </div>
@@ -119,7 +119,7 @@ return (
                 </div>
                 <div id="biblioteca"></div>
             </div>
-          
+        
         </div>
         
     </section>
