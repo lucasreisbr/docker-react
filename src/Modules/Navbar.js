@@ -18,7 +18,7 @@ import logo from '../logo-ibresp.svg';
 import './Navbar.css';
 
 
-export default function Component() {
+export default React.memo(function Component() {
 
     const [style, setStyle] = useState("btn-active");
     const changeStyle = () => {
@@ -264,4 +264,4 @@ return (
 
 
 );
-}
+});

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import '../Pages/Home.css';
 
-class Form extends Component{
+class Form extends PureComponent{
 
 componentDidMount() { 
     if (window.RDStationForms){

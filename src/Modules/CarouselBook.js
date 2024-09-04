@@ -29,7 +29,7 @@ import AvalionSmall from '../images/ibresp-ebook-gratuito-avalion-small.webp';
 import './Dotsbook.css';
 
 
-export default function CarouselBook() {
+export default React.memo(function CarouselBook() {
 
 return(
 
@@ -182,4 +182,4 @@ E-books gratuitos
 </div>
     
 );
-}
+});

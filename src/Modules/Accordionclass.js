@@ -1,10 +1,10 @@
+import React from 'react';
 import { Accordion } from "flowbite-react";
 import './Accordionclass.css';
 
-export default function Accordionclass() {
+
+export default React.memo(function Accordionclass() {
 return (
-
-
 
 <div className="flex flex-row justify-center mb-24 p-3 lg:p-0">
 
@@ -526,5 +526,5 @@ return (
 </div>
 
 );
-}
+});
 

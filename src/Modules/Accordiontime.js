@@ -1,3 +1,4 @@
+import React from "react";
 import { Accordion } from "flowbite-react";
 import { FaWhatsapp } from "react-icons/fa6";
 import Bruno from "../images/team/bruno-fialho.webp";
@@ -30,7 +31,7 @@ import Felipe from "../images/team/felipe.webp";
 import Claudio from "../images/team/caludio.webp";
 import './Accordiontime.css';
 
-export default function Accordiontime() {
+export default React.memo(function Accordiontime() {
 return (
 
 
@@ -355,5 +356,5 @@ return (
 </div>
 
 );
-}
+});
 

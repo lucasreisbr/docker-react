@@ -1,11 +1,10 @@
+import React from "react";
 import { Accordion } from "flowbite-react";
 import { FaMapLocationDot } from "react-icons/fa6";
 import './Accordionpolo.css';
 
-export default function Accordionpolo() {
+export default React.memo(function Accordionpolo() {
 return (
-
-
 
 <div className="flex flex-row justify-center mt-12 mb-24 p-3 lg:p-0">
 
@@ -420,5 +419,5 @@ return (
 </div>
 
 );
-}
+});
 

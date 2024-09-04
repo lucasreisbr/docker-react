@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from '../logo-ibresp.svg';
 import logoAbed from '../images/logo-abed.webp'
 import { FaInstagram } from "react-icons/fa6";
@@ -8,7 +9,7 @@ import { FaSpotify } from "react-icons/fa6";
 import './Footer.css';
 
 
-export default function Footer() {
+export default React.memo(function Footer() {
 
     return(
     
@@ -141,4 +142,4 @@ export default function Footer() {
         </section>
     </div>
 );
-}
+});

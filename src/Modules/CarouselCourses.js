@@ -33,7 +33,7 @@ import TokenSmall from '../images/ibresp-curso-mercado-digital-imobiliario-small
 import './Dots.css';
 
 
-export default function CarouselCourses() {
+export default React.memo(function CarouselCourses() {
 
 return(
 
@@ -249,4 +249,4 @@ Cursos IBRESP
 </div>
     
 );
-}
+});

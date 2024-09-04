@@ -1,3 +1,4 @@
+import React from 'react';
 import Banner from '../images/banner.avif';
 import BannerMob from '../images/banner-mob.webp';
 import CarouselCourses from '../Modules/CarouselCourses';
@@ -24,7 +25,7 @@ return (
         <div className="w-full">
             <div className='container mx-auto px-3 xl:px-0'>
                 <div className='mt-20'>
-                    <h1 loading='Lazy' className="w-9/12 text-white font-bold text-3xl sm:text-4xl md:text-6xl mb-56">
+                    <h1 loading='lazy' className="w-9/12 text-white font-bold text-3xl sm:text-4xl md:text-6xl mb-56">
                         <span className="leading-relaxed">Seja um Corretor de Imóveis com uma grande formação!</span>
                     </h1>
                 </div>
@@ -244,4 +245,4 @@ return (
 );
 }
 
-export default Home;
+export default React.memo(Home);
