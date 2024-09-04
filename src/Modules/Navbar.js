@@ -64,9 +64,11 @@ return (
         
         <div className="flex flex-wrap w-full items-center justify-between py-4 md:space-x-8">
             
-            <Navbar.Brand href="/">
-                <img width="100%" height="auto" alt="Logo IBRESP a melhor escola imobiliária do Brasil" src={logo} className="lg:h-14 md:h-7 h-8" />
-            </Navbar.Brand>
+            <div className="w-1/4 sm:w-1/5 md:w-1/5 lg:w-1/4 xl:w-1/6 float-start">
+                <Navbar.Brand href="/">
+                    <img width="100%" height="auto" alt="Logo IBRESP a melhor escola imobiliária do Brasil" src={logo} className="lg:h-14 md:h-7 h-8" />
+                </Navbar.Brand>
+            </div>
         
             <Navbar.Toggle />
     
