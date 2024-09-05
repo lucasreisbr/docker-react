@@ -25,7 +25,7 @@ return (
             <div className='container mx-auto px-3 xl:px-0'>
                 <div className='mt-20'>
                     <h1 loading='lazy' className="w-full md:w-9/12 text-white font-bold text-2xl sm:text-3xl md:text-6xl mb-56">
-                        <span className="leading-relaxed">Seja um Corretor de Imóveis com uma grande formação!</span>
+                        <span className="leading-relaxed">Sejamos um Corretor de Imóveis com uma grande formação!</span>
                     </h1>
                 </div>
                 <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
