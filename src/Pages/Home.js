@@ -222,11 +222,14 @@ return (
 
             <div className='container mx-auto px-3 xl:px-0'>
 
-                <div className=' mt-14 w-full'>
-                    <p className=' text-violet-900 text-3xl text-center font-semibold mb-7'>
+                <div className='my-14 w-full text-center'>
+                    <p className=' text-violet-900 text-3xl font-semibold mb-7'>
                     Assine nossa newsletter
                     </p>
 
+                    <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
+                        <button className=" bg-violet-900 text-white rounded-md hover:bg-violet-300 hover:text-violet-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 md:mb-2 text-lg"> Assine aqui</button>
+                    </a>
 
                 </div>
 
