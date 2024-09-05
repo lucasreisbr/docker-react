@@ -1,17 +1,3 @@
-.desktop{
-    display: inherit;
-    @media (max-width:600px) {
-        display: none;
-    }
-}
-
-.mobile{
-    display: none;
-    @media (max-width:600px) {
-        display: inherit;
-    }
-}
-
 .bg-destak{
         background-image: url('../images/destaque.webp');
         background-position: center;
