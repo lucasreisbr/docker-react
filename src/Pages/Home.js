@@ -42,15 +42,9 @@ return (
     </section>
 
     <section className="flex flex-row justify-center">
-        <div className="container my-14 desktop px-3 xl:px-0">
+        <div className="container my-14 px-3 xl:px-0">
             <a href="https://www.ibresp.com.br/" target="_self">
-                <img loading='lazy' width="100%" height="auto" src={Banner} alt="Banner site" title="Banner site"/>
-            </a>
-        </div>
-
-        <div className="container my-14 mobile px-3">
-            <a href="https://www.ibresp.com.br/" target="_self">
-                <img loading='lazy' width="100%" height="auto" src={BannerMob} alt="Banner site" title="Banner site"/>
+                <img loading='lazy' width="1640" height="380" src={Banner} srcSet={`${BannerMob} 320w, ${BannerMob} 680w, ${BannerMob} 960w, ${Banner} 1980w`} alt="Banner site" title="Banner site"/>
             </a>
         </div>
     </section>
