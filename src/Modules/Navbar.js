@@ -204,11 +204,16 @@ return (
                                 Polos
                             </ Link>   
                         </Navbar.Link> */}
-                        <Navbar.Link className="m-0 p-0 active" active={path === "/polos"} as={"div"}> 
+                        
+                        <Link className="hover:text-primary-600 dark:hover:text-primary-500" to="/polos">
+                            Polos
+                        </Link>
+
+                        {/* <Navbar.Link className="m-0 p-0 active" active={path === "/polos"} as={"div"}> 
                             <a href="/polos">
                                 Polos
                             </a>
-                        </Navbar.Link>
+                        </Navbar.Link> */}
                     </li>
                     <li>
                         <Navbar.Link className="m-0 p-0" active={path === "/equipe"} as={"div"}> 
