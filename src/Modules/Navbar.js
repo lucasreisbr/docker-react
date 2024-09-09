@@ -192,28 +192,18 @@ return (
             <ul className="grid grid-cols-1">
                 <div className="space-y-2 md:space-y-4 p-4">
                     <li>
-                        <Navbar.Link className="m-0 p-0" active={path === "/alunos"} as={"div"}> 
-                            <Link to="/alunos"> 
+                        <Navbar.Link className="m-0 p-0" active={path === "/area-do-aluno"} as={"div"}> 
+                            <Link to="/area-do-aluno"> 
                                 Área do aluno(a)
                             </ Link>   
                         </Navbar.Link>
                     </li>
                     <li>                
-                        {/* <Navbar.Link className="m-0 p-0 active" active={path === "/polos"} as={"div"}> 
-                            <Link to="/polos"> 
+                        <Navbar.Link className="m-0 p-0 active" active={path === "/locais-de-prova"} as={"div"}> 
+                            <Link to="/locais-de-prova"> 
                                 Polos
                             </ Link>   
-                        </Navbar.Link> */}
-                        
-                        <Link className="hover:text-primary-600 dark:hover:text-primary-500" to="/polos">
-                            Polos
-                        </Link>
-
-                        {/* <Navbar.Link className="m-0 p-0 active" active={path === "/polos"} as={"div"}> 
-                            <a href="/polos">
-                                Polos
-                            </a>
-                        </Navbar.Link> */}
+                        </Navbar.Link>
                     </li>
                     <li>
                         <Navbar.Link className="m-0 p-0" active={path === "/equipe"} as={"div"}> 
@@ -223,8 +213,8 @@ return (
                         </Navbar.Link>
                     </li>
                     <li>
-                        <Navbar.Link className="m-0 p-0" active={path === "/sobre"} as={"div"}> 
-                            <Link to="/sobre"> 
+                        <Navbar.Link className="m-0 p-0" active={path === "/o-ibresp"} as={"div"}> 
+                            <Link to="/o-ibresp"> 
                                 Sobre
                             </ Link>   
                         </Navbar.Link>
