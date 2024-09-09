@@ -5,7 +5,6 @@ import Accordionpolo from '../Modules/Accordionpolo';
 function Polos() {
     return(
 <div>
-
   <div id="top" className=" flex flex-row justify-center p-3 lg:p-0">
 
     <div className="container mt-12">
