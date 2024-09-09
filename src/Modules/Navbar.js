@@ -199,10 +199,15 @@ return (
                         </Navbar.Link>
                     </li>
                     <li>                
-                        <Navbar.Link className="m-0 p-0 active" active={path === "/polos"} as={"div"}> 
+                        {/* <Navbar.Link className="m-0 p-0 active" active={path === "/polos"} as={"div"}> 
                             <Link to="/polos"> 
                                 Polos
                             </ Link>   
+                        </Navbar.Link> */}
+                        <Navbar.Link className="m-0 p-0 active" active={path === "/polos"} as={"div"}> 
+                            <a href="/polos">
+                                Polos
+                            </a>
                         </Navbar.Link>
                     </li>
                     <li>
