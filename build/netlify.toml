@@ -1,4 +1,9 @@
 [[redirects]]
-  from = "/*"
+  from = ""
   to = "/index.html"
+  status = 200
+
+  [[redirects]]
+  from = "/locais-de-prova"
+  to = "https://ibresp2024.netlify.app/locais-de-prova"
   status = 200
