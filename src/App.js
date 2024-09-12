@@ -22,7 +22,25 @@ return (
     <ScrollToAnchor /> 
     <Navbar/>
             <Routes>
-                <Route index element={<Home />} />
+                <Route index element={
+                    <>
+                    <PageTitle title="Curso de Corretor de Imóveis Online São Paulo, Minas Gerais, Paraná e Pará | IBRESP" />
+                    <meta name="description" content="Curso de corretor de imóveis a distância (EAD) com prova presencial. Você poderá estudar onde e quando quiser! O melhor curso de corretor de imóveis de São Paulo, Minas Gerais, Paraná e Pará." />
+                    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+                    <link rel="canonical" href="https://www.ibresp.com.br/" />
+                    <meta property="og:locale" content="pt_BR" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:title" content="Curso de Corretor de Imóveis Online São Paulo, Minas Gerais, Paraná e Pará | IBRESP" />
+                    <meta property="og:description" content="Curso de corretor de imóveis a distância (EAD) com prova presencial. Você poderá estudar onde e quando quiser! O melhor curso de corretor de imóveis de São Paulo, Minas Gerais, Paraná e Pará." />
+                    <meta property="og:url" content="https://www.ibresp.com.br/" />
+                    <meta property="og:site_name" content="IBRESP" />
+                    <meta property="article:publisher" content="https://www.facebook.com/ibresp" />
+                    <meta property="article:modified_time" content="2024-09-09T17:20:54+00:00" />
+                    <meta property="og:image" content="https://www.ibresp.com.br/wp-content/uploads/2022/05/www.ibresp.com.br-banner-tti.jpg" />
+                    <Home />
+                    </>
+                    } 
+                    />
                 <Route path="locais-de-prova" element={
                     <>
                         <PageTitle title="Locais de Prova em São Paulo, Minas Gerais, Paraná e Pasrá | IBRESP" />
