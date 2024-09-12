@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Footer from '../Modules/Footer';
 import { PiSealCheckLight } from "react-icons/pi";
 import { BsBuildings } from "react-icons/bs";
@@ -7,7 +8,23 @@ import { HiOutlineDocumentText } from "react-icons/hi";
 function Sobre() {
     return(
 <div>
-
+  <Helmet>
+    <title>Educação Imobiliária à Distância EAD São Paulo, Minas Gerais, Paraná e Pará | IBRESP</title>
+    <meta name="description" content="O IBRESP iniciou suas atividades em São Paulo no ano de 2009, deste modo, por meio de uma parceria entre os fundadores do Instituto Educar, Eduardo Penterich e Arnaldo Alves, e o fundador do IBREP Santa Catarina, Celso Pereira Raimundo." />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://www.ibresp.com.br/o-ibresp/" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Educação Imobiliária à Distância EAD São Paulo e Minas Gerais | IBRESP" />
+    <meta property="og:description" content="O IBRESP iniciou suas atividades em São Paulo no ano de 2009, deste modo, por meio de uma parceria entre os fundadores do Instituto Educar, Eduardo Penterich e Arnaldo Alves, e o fundador do IBREP Santa Catarina, Celso Pereira Raimundo." />
+    <meta property="og:url" content="https://www.ibresp.com.br/o-ibresp/" />
+    <meta property="og:site_name" content="IBRESP" />
+    <meta property="article:publisher" content="https://www.facebook.com/ibresp" />
+    <meta property="article:modified_time" content="2024-07-10T17:46:22+00:00" />
+    <meta property="og:image" content="https://www.ibresp.com.br/wp-content/uploads/2021/11/www.ibresp.com.br-capa-news-cursos-gratuitos-ibresp-01.jpg" />
+    <meta property="og:image:width" content="580" />
+    <meta property="og:image:height" content="418" />
+  </Helmet>
   <div className=" flex flex-row justify-center p-3 lg:p-0 mb-32">
 
     <div className="container mt-12">

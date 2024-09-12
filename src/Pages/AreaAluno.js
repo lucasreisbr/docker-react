@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Footer from '../Modules/Footer';
 import Accordionclass from '../Modules/Accordionclass';
 import { ImWhatsapp } from "react-icons/im";
@@ -6,6 +7,23 @@ import { ImWhatsapp } from "react-icons/im";
 function Alunos() {
     return(
 <div>
+    <Helmet>
+        <title>Área do Aluno IBRESP | Escola para Corretores de Imóveis</title>
+        <meta name="description" content="Para auxiliá-lo, na área do aluno, elaboramos um manual sintético em que você, aluno, encontra as resposta de suas principais dúvidas. Saiba mais." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://www.ibresp.com.br/area-do-aluno/" />
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Área do Aluno IBRESP - IBRESP" />
+        <meta property="og:description" content="Para auxiliá-lo, na área do aluno, elaboramos um manual sintético em que você, aluno, encontra as resposta de suas principais dúvidas. Saiba mais." />
+        <meta property="og:url" content="https://www.ibresp.com.br/area-do-aluno/" />
+        <meta property="og:site_name" content="IBRESP" />
+        <meta property="article:publisher" content="https://www.facebook.com/ibresp" />
+        <meta property="article:modified_time" content="2024-07-03T19:05:34+00:00" />
+        <meta property="og:image" content="https://www.ibresp.com.br/wp-content/uploads/2017/01/advogado-como-corretor.jpg" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="536" />
+    </Helmet>
 
     <section className="flex flex-row min-h-screen justify-center bg-class">
         <div className="w-full">
