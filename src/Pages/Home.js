@@ -173,7 +173,7 @@ return (
 
                 <div className="text-center my-20">
                     <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
-                        <button className=" bg-orange-600 text-white rounded-md hover:bg-orange-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-5 py-3 md:mb-2 text-lg font-bold"> Saiba mais</button>
+                        <button className=" bg-orange-500 text-white rounded-md hover:bg-orange-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-5 py-3 md:mb-2 text-lg font-bold"> Saiba mais</button>
                     </a>
                 </div>
 

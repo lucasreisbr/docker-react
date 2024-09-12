@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c858a0be.css",
-    "main.js": "/static/js/main.6d4c3fb1.js",
+    "main.css": "/static/css/main.4472e05a.css",
+    "main.js": "/static/js/main.714e5a7a.js",
     "static/js/453.ee3be739.chunk.js": "/static/js/453.ee3be739.chunk.js",
     "static/media/ubuntu-latin-ext-300-normal.woff2": "/static/media/ubuntu-latin-ext-300-normal.6c7c922e500cf51809de.woff2",
     "static/media/banner.avif": "/static/media/banner.3f3719efbe19682c270a.avif",
@@ -18,6 +18,7 @@
     "static/media/ubuntu-latin-700-normal.woff2": "/static/media/ubuntu-latin-700-normal.7ceec6fd3e7d00630b25.woff2",
     "static/media/hero-alunos-mobile.webp": "/static/media/hero-alunos-mobile.e972bc20b8f6cbc9110a.webp",
     "static/media/ubuntu-cyrillic-ext-300-normal.woff2": "/static/media/ubuntu-cyrillic-ext-300-normal.20791c5c6aba3cfde86c.woff2",
+    "static/media/hero-ibresp-mobile.webp": "/static/media/hero-ibresp-mobile.5e91df2dcfe47ab989e9.webp",
     "static/media/ubuntu-cyrillic-ext-400-normal.woff2": "/static/media/ubuntu-cyrillic-ext-400-normal.80c010be16bde8b7e613.woff2",
     "static/media/ubuntu-latin-ext-400-normal.woff": "/static/media/ubuntu-latin-ext-400-normal.da2e1b790a2d4c962274.woff",
     "static/media/ubuntu-latin-ext-700-normal.woff": "/static/media/ubuntu-latin-ext-700-normal.b7944bcbe364d16a3271.woff",
@@ -137,12 +138,12 @@
     "static/media/ibresp-curso-marketing-imobiliario-small.webp": "/static/media/ibresp-curso-marketing-imobiliario-small.e663f3189e7deec59772.webp",
     "static/media/ibresp-programa-especialista-locacao-small.webp": "/static/media/ibresp-programa-especialista-locacao-small.a9aa0df07268138ffc1b.webp",
     "index.html": "/index.html",
-    "main.c858a0be.css.map": "/static/css/main.c858a0be.css.map",
-    "main.6d4c3fb1.js.map": "/static/js/main.6d4c3fb1.js.map",
+    "main.4472e05a.css.map": "/static/css/main.4472e05a.css.map",
+    "main.714e5a7a.js.map": "/static/js/main.714e5a7a.js.map",
     "453.ee3be739.chunk.js.map": "/static/js/453.ee3be739.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c858a0be.css",
-    "static/js/main.6d4c3fb1.js"
+    "static/css/main.4472e05a.css",
+    "static/js/main.714e5a7a.js"
   ]
 }
