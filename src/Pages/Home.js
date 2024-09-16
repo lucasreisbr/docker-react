@@ -190,7 +190,7 @@ return (
 
                 <div className="text-center my-20">
                     <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
-                        <button className=" bg-orange-500 text-white rounded-md hover:bg-orange-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-5 py-3 md:mb-2 text-lg font-bold"> Saiba mais</button>
+                        <button className=" bg-orange-600 text-white rounded-md hover:bg-orange-400 hover:text-white hover:scale-110 duration-300 ease-in-out px-5 py-3 md:mb-2 text-lg font-bold"> Saiba mais</button>
                     </a>
                 </div>
 
@@ -238,7 +238,7 @@ return (
                     Assine nossa newsletter
                     </p>
 
-                    <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
+                    <a href="https://informacoes.ibresp.com.br/assine-nossa-newsletter" target="_self">
                         <button className=" bg-violet-900 text-white rounded-md hover:bg-violet-300 hover:text-violet-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 md:mb-2 text-lg"> Assine aqui</button>
                     </a>
 
