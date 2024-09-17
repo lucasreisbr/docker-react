@@ -64,7 +64,7 @@ return (
         
         <div className="flex flex-wrap w-full items-center justify-between py-4 md:space-x-8">
             
-            <div className="w-1/4 sm:w-1/5 md:w-1/5 lg:w-1/4 xl:w-1/6 float-start">
+            <div className=" w-2/5 sm:w-1/5 md:w-1/5 lg:w-1/4 xl:w-1/6 float-start">
 
                 <Navbar.Brand Home={path === "/"} as={"div"}>
                     <Link to="/"> 
