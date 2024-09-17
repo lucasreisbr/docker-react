@@ -41,6 +41,33 @@ return (
     </Accordion.Panel>
 
     <Accordion.Panel>
+        <Accordion.Title className="text-white text-xl md:text-2xl" >Prorrogação do curso</Accordion.Title>
+            <Accordion.Content>
+            <div className=" grid grid-cols-1 justify-items-start">
+
+                <p className="text-gray-800">
+                    A prorrogação do curso TTI deve ser solicitada dentro do prazo contratual do mesmo e a solicitação deve ser feita através do e-mail <a className="text-cyan-400" href="mailto:matricula@ibresp.com.br">matricula@ibresp.com.br</a>. Expirado o prazo contratual, deve ser solicitado uma reativação da matricula, solicitada através do mesmo e-mail.
+                </p>
+
+            </div>
+            </Accordion.Content>
+    </Accordion.Panel>
+
+
+    <Accordion.Panel>
+        <Accordion.Title className="text-white text-xl md:text-2xl" >Cancelamento do curso</Accordion.Title>
+            <Accordion.Content>
+            <div className=" grid grid-cols-1 justify-items-start">
+
+                    <p className="text-gray-800">
+                        O cancelamento do curso pode ser realizado em qualquer momento, basta solicitar através do <a className="text-cyan-400" href="mailto:cancelamento@ibresp.com.br">cancelamento@ibresp.com.br</a> informando dados de aluno e o motivo do cancelamento.
+                    </p>
+
+                </div>
+            </Accordion.Content>
+    </Accordion.Panel>
+
+    <Accordion.Panel>
         <Accordion.Title className="text-white text-xl md:text-2xl" >Aproveitamento de estudos</Accordion.Title>
             <Accordion.Content>
             
@@ -79,34 +106,6 @@ return (
                     
                 </div>
 
-            </Accordion.Content>
-    </Accordion.Panel>
-
-
-    <Accordion.Panel>
-        <Accordion.Title className="text-white text-xl md:text-2xl" >Prorrogação do curso</Accordion.Title>
-            <Accordion.Content>
-            <div className=" grid grid-cols-1 justify-items-start">
-
-                <p className="text-gray-800">
-                    A prorrogação do curso TTI deve ser solicitada dentro do prazo contratual do mesmo e a solicitação deve ser feita através do e-mail <a className="text-cyan-400" href="mailto:matricula@ibresp.com.br">matricula@ibresp.com.br</a>. Expirado o prazo contratual, deve ser solicitado uma reativação da matricula, solicitada através do mesmo e-mail.
-                </p>
-
-            </div>
-            </Accordion.Content>
-    </Accordion.Panel>
-
-
-    <Accordion.Panel>
-        <Accordion.Title className="text-white text-xl md:text-2xl" >Cancelamento do curso</Accordion.Title>
-            <Accordion.Content>
-            <div className=" grid grid-cols-1 justify-items-start">
-
-                    <p className="text-gray-800">
-                        O cancelamento do curso pode ser realizado em qualquer momento, basta solicitar através do <a className="text-cyan-400" href="mailto:cancelamento@ibresp.com.br">cancelamento@ibresp.com.br</a> informando dados de aluno e o motivo do cancelamento.
-                    </p>
-
-                </div>
             </Accordion.Content>
     </Accordion.Panel>
 
@@ -502,14 +501,14 @@ return (
                     <p className="text-gray-800 mb-12">
                         <span className="font-extrabold">Para os alunos do IBRESP/SP</span><br></br><br></br>
                         Segue o link para consulta do GDAE<br></br><br></br>
-                        <a className="text-cyan-400" href="https://concluintes.educacao.sp.gov.br/publica/consultapublica/search">https://concluintes.educacao.sp.gov.br/publica/consultapublica/search</a><br></br><br></br>
+                        <a className="text-cyan-400" href="https://concluintes.educacao.sp.gov.br/publica/consultapublica/search">Clique aqui!</a><br></br><br></br>
                         Preencha apenas com o Nº DE REGISTRO DA PUBLICAÇÃO (disponível no verso da 2ª folha do diploma) e o código de imagem<br></br><br></br>
                         *Siga as orientações, não adicione dados além do que foi informado*
                     </p>
                     <p className="text-gray-800">
                         <span className="font-extrabold">Para os alunos da ETEMG</span><br></br><br></br>
                         Segue o link para consulta no SISTEC<br></br><br></br>
-                        <a className="text-cyan-400" href="https://sistec.mec.gov.br/validadenacional">https://sistec.mec.gov.br/validadenacional</a><br></br><br></br>
+                        <a className="text-cyan-400" href="https://sistec.mec.gov.br/validadenacional">Clique aqui</a><br></br><br></br>
                         Adicionar os dados solicitados: CPF e registro de autenticação (verso do diploma)
                     </p>
                 </div>
