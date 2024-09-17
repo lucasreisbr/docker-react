@@ -1,0 +1,13 @@
+
+.btn-go-top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: none;
+    cursor: pointer;
+    z-index: 99;
+    @media (max-width:767px) {
+       display: inherit;
+    }
+}

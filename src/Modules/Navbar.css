@@ -1,7 +1,6 @@
 .navbarcolor {
     background-color: rgb(23 37 84);
     width: 100%;
-    z-index: 99;
 }
 
 .navbarcolor.active {
@@ -10,6 +9,13 @@
     position: sticky;
     width: 100%;
     border-radius: 0 0 5rem 0;
+    z-index: 99;
+    @media (max-width:767px) {
+        background-color: rgb(23 37 84);
+        width: 100%;
+        border-radius: 0 0 0 0;
+        position: inherit;
+    }
 }
 
 nav .active {
@@ -33,7 +39,7 @@ nav li a:hover {
 }
 
 .btn-active-on {
-    color: rgb(34 211 238);
+    color: white; 
 }
 
 .btn-active-on button svg {
