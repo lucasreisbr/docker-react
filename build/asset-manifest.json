@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4472e05a.css",
-    "main.js": "/static/js/main.714e5a7a.js",
+    "main.css": "/static/css/main.66c6a853.css",
+    "main.js": "/static/js/main.f20952b4.js",
     "static/js/453.ee3be739.chunk.js": "/static/js/453.ee3be739.chunk.js",
     "static/media/ubuntu-latin-ext-300-normal.woff2": "/static/media/ubuntu-latin-ext-300-normal.6c7c922e500cf51809de.woff2",
     "static/media/banner.avif": "/static/media/banner.3f3719efbe19682c270a.avif",
@@ -14,7 +14,6 @@
     "static/media/ubuntu-latin-400-normal.woff2": "/static/media/ubuntu-latin-400-normal.2f02effe392a63dc07a5.woff2",
     "static/media/destaque-mobile.avif": "/static/media/destaque-mobile.5cebbb5fc928fffe505a.avif",
     "static/media/banner-mob.webp": "/static/media/banner-mob.e634a1f19ac244dcaa6d.webp",
-    "static/media/destaque.webp": "/static/media/destaque.6081a1fd47416ba20f8c.webp",
     "static/media/ubuntu-latin-700-normal.woff2": "/static/media/ubuntu-latin-700-normal.7ceec6fd3e7d00630b25.woff2",
     "static/media/hero-alunos-mobile.webp": "/static/media/hero-alunos-mobile.e972bc20b8f6cbc9110a.webp",
     "static/media/ubuntu-cyrillic-ext-300-normal.woff2": "/static/media/ubuntu-cyrillic-ext-300-normal.20791c5c6aba3cfde86c.woff2",
@@ -26,6 +25,7 @@
     "static/media/ubuntu-cyrillic-300-normal.woff2": "/static/media/ubuntu-cyrillic-300-normal.c091e890ad4ddff00cfc.woff2",
     "static/media/ubuntu-cyrillic-ext-700-normal.woff2": "/static/media/ubuntu-cyrillic-ext-700-normal.14321031e27c465731aa.woff2",
     "static/media/ubuntu-cyrillic-400-normal.woff2": "/static/media/ubuntu-cyrillic-400-normal.5baf1f37de97e50ab654.woff2",
+    "static/media/destaque.webp": "/static/media/destaque.51c32cce2d3b528526b0.webp",
     "static/media/ibresp-ebook-gratuito-hp12c.webp": "/static/media/ibresp-ebook-gratuito-hp12c.40d2739d80dd0f9652e8.webp",
     "static/media/ibresp-curso-inferencia-estatistica.webp": "/static/media/ibresp-curso-inferencia-estatistica.f51155ea46b4fde298f8.webp",
     "static/media/ibresp-curso-administracao-de-condominios.webp": "/static/media/ibresp-curso-administracao-de-condominios.23fb48de5c7b43c1fbfd.webp",
@@ -138,12 +138,12 @@
     "static/media/ibresp-curso-marketing-imobiliario-small.webp": "/static/media/ibresp-curso-marketing-imobiliario-small.e663f3189e7deec59772.webp",
     "static/media/ibresp-programa-especialista-locacao-small.webp": "/static/media/ibresp-programa-especialista-locacao-small.a9aa0df07268138ffc1b.webp",
     "index.html": "/index.html",
-    "main.4472e05a.css.map": "/static/css/main.4472e05a.css.map",
-    "main.714e5a7a.js.map": "/static/js/main.714e5a7a.js.map",
+    "main.66c6a853.css.map": "/static/css/main.66c6a853.css.map",
+    "main.f20952b4.js.map": "/static/js/main.f20952b4.js.map",
     "453.ee3be739.chunk.js.map": "/static/js/453.ee3be739.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4472e05a.css",
-    "static/js/main.714e5a7a.js"
+    "static/css/main.66c6a853.css",
+    "static/js/main.f20952b4.js"
   ]
 }

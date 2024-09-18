@@ -200,31 +200,24 @@ return (
     </section>
 
     <section loading='lazy' className="bg-destak flex flex-row min-h-screen justify-center">
-        
         <div className="w-full">
-
             <div className='container mx-auto px-3 xl:px-0'>
-
-                <div className='mt-44 mb-20 w-full md:w-1/3'>
-                    <p className=' text-cyan-950 text-xl leading-loose '>
+                <div className='mt-16 md:mt-44 mb-20 w-full md:w-1/3'>
+                    <h2 className=' text-cyan-950 text-4xl font-extrabold mb-6' >Destaque-se!</h2>
+                    <p className='text-cyan-950 text-xl leading-loose'>
                     Ser aluno(a) IBRESP é ter tutoria especializada, cursos gratuitos, informação de qualidade, atendimento exclusivo, descontos e vantagens.
                     </p>
                 </div>
-
                 <div className='w-full md:w-1/3 mb-24'>
                     <p className=' text-cyan-950 text-2xl leading-loose '>
                     Tudo para uma formação com destaque no mercado imobiliário. 
                     </p>
                 </div>
-
                 <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
                     <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-cyan-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 md:mb-2 text-lg"> Saiba mais</button>
                 </a>
-
             </div>
-
         </div>
-
     </section>
 
     <section className="flex flex-row justify-center bg-cyan-300">

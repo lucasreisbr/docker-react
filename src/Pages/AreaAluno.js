@@ -43,11 +43,11 @@ function Alunos() {
                     </h2>
                 </div>
                 <a href="https://www.ibresp.com.br/wp-content/uploads/2021/03/www.ibresp.com.br-manual-acesso-ava.pdf" target="_self">
-                    <button className=" bg-purple-700 text-white rounded-md hover:bg-purple-300 hover:text-purple-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 md:mb-2 text-lg me-12">Manual AVA</button>
+                    <button className=" bg-purple-700 text-white rounded-md hover:bg-purple-300 hover:text-purple-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 text-lg me-12">Manual AVA</button>
                 </a>
 
                 <a href="https://www.ibresp.com.br/cursos-gratuitos" target="_self">
-                    <button className=" bg-orange-400 text-white rounded-md hover:bg-orange-200 hover:text-orange-900 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 md:mb-2 text-lg">Cursos gratuitos</button>
+                    <button className=" bg-orange-400 text-white rounded-xl hover:bg-orange-200 hover:text-orange-900 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 text-lg">Cursos gratuitos</button>
                 </a>
             </div>
         </div>
