@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.66c6a853.css",
+    "main.css": "/static/css/main.fbc681fc.css",
     "main.js": "/static/js/main.904d5e2b.js",
     "static/js/453.ee3be739.chunk.js": "/static/js/453.ee3be739.chunk.js",
     "static/media/ubuntu-latin-ext-300-normal.woff2": "/static/media/ubuntu-latin-ext-300-normal.6c7c922e500cf51809de.woff2",
@@ -138,12 +138,12 @@
     "static/media/ibresp-curso-marketing-imobiliario-small.webp": "/static/media/ibresp-curso-marketing-imobiliario-small.e663f3189e7deec59772.webp",
     "static/media/ibresp-programa-especialista-locacao-small.webp": "/static/media/ibresp-programa-especialista-locacao-small.a9aa0df07268138ffc1b.webp",
     "index.html": "/index.html",
-    "main.66c6a853.css.map": "/static/css/main.66c6a853.css.map",
+    "main.fbc681fc.css.map": "/static/css/main.fbc681fc.css.map",
     "main.904d5e2b.js.map": "/static/js/main.904d5e2b.js.map",
     "453.ee3be739.chunk.js.map": "/static/js/453.ee3be739.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66c6a853.css",
+    "static/css/main.fbc681fc.css",
     "static/js/main.904d5e2b.js"
   ]
 }
