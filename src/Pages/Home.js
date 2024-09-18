@@ -214,7 +214,7 @@ return (
                     </p>
                 </div>
                 <a href="https://www.ibresp.com.br/Curso-TTI-IBRESP/" target="_self">
-                    <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-cyan-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 md:mb-2 text-lg"> Saiba mais</button>
+                    <button className=" bg-cyan-950 text-white rounded-md hover:bg-cyan-300 hover:text-cyan-950 hover:scale-110 duration-300 ease-in-out px-5 py-3 font-bold mb-14 text-lg"> Saiba mais</button>
                 </a>
             </div>
         </div>
