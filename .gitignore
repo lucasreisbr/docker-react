@@ -1,6 +1,7 @@
-# Ignore ESLint cache file
 node_modules/
 
+# Ignore ESLint cache file
+node_modules/.cache/.eslintcache
 
-
-
+# Ignore all pack files inside default-development cache
+node_modules/.cache/default-development/*.pack
